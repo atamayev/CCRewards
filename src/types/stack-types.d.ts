@@ -3,6 +3,7 @@ declare global {
 		MyCards: undefined
 		Login: undefined
 		MainTabs: undefined
+		AddNewCard: undefined
 	}
 }
 

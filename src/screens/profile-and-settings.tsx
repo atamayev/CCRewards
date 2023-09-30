@@ -4,7 +4,7 @@ import containerStyles from "../styles/container-styles"
 export default function ProfileAndSettings () {
 	return (
 		<View style = {containerStyles.container}>
-			<Text>Welcome to ProfileAndSettings</Text>
+			<Text>ProfileAndSettings</Text>
 		</View>
 	)
 }
