@@ -1,0 +1,31 @@
+const creditCardIssuers = [
+	"Amex",
+	"Banorte USA",
+	"Banco Popular",
+	"Barclays",
+	"BofA",
+	"Brex",
+	"Capital One",
+	"Celtic Bank",
+	"Chase",
+	"Citi",
+	"Continental Finance",
+	"Credit One",
+	"Deserve",
+	"Discover",
+	"Fidelity",
+	"First Access",
+	"First Progress",
+	"Genesis FS Card Services",
+	"HSBC",
+	"Merrick Bank",
+	"PenFed",
+	"Petal",
+	"Synchrony",
+	"TD Bank",
+	"The Bank of Missouri",
+	"U.S. Bank",
+	"Wells Fargo"
+] as const
+
+export default creditCardIssuers
