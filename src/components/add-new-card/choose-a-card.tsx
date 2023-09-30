@@ -15,7 +15,7 @@ export default function ChooseACard (props: Props) {
 	const cardOptions: { [key: string]: string[] } = {
 		"Chase": ["Chase Freedom", "Chase Sapphire"],
 		"Capital One": ["Capital One Quicksilver", "Capital One Venture"],
-		"Bank of America": ["BankAmericard", "Bank of America Cash Rewards"]
+		"Bank of America": ["BankAmerica", "Bank of America Cash Rewards"]
 	}
 
 	const handleSetCard = (value: string) => {
