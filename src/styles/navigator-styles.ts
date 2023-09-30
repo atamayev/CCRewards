@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/naming-convention
 const TabNavigatorStyles = {
 	tabBarHideOnKeyboard: true,
 	headerShown: false,

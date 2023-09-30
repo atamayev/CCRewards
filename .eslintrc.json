@@ -108,6 +108,12 @@
 				"filenames/match-regex": "off"
 			}
 		},
+		{
+			"files": ["./src/styles/*.ts"],
+			"rules": {
+				"@typescript-eslint/naming-convention": "off"
+			}
+		},
         {
           "files": ["*.jsx", "*.tsx", "./src/services/*.ts"],
           "rules": {

@@ -1,3 +1,4 @@
+import _ from "lodash"
 import { Text } from "react-native"
 import { Picker } from "@react-native-picker/picker"
 
@@ -19,14 +20,24 @@ export default function ChooseACard (props: Props) {
 
 	if (!showCardDropdown) return null
 
+	function SelectCard () {
+		if (_.isNull(issuer)) return null
+		return (
+			cardOptions[issuer].map((option) => (
+				<Picker.Item key={option} label={option} value={option} />
+			))
+		)
+	}
+
 	return (
 		<>
 			<Text>Choose a Card:</Text>
-			<Picker selectedValue={card} onValueChange={(value) => setCard(value as string)}>
+			<Picker
+				selectedValue = {card}
+				onValueChange={(value) => setCard(value as string)}
+			>
 				<Picker.Item label="Select a card" value={null} />
-				{issuer && cardOptions[issuer].map((option) => (
-					<Picker.Item key={option} label={option} value={option} />
-				))}
+				<SelectCard />
 			</Picker>
 		</>
 	)

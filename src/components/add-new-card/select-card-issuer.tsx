@@ -11,7 +11,7 @@ export default function SelectCardIssuer (props: Props) {
 
 	return (
 		<>
-			<Text>Credit Card Issuer:</Text>
+			<Text>Select a Credit Card Issuer:</Text>
 			<Picker selectedValue={issuer} onValueChange={(value) => handleIssuerChange(value as string)}>
 				<Picker.Item label="Select an issuer" value={null} />
 				<Picker.Item label="Chase" value="Chase" />
