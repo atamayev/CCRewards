@@ -4,10 +4,6 @@
 		"plugin:@typescript-eslint/recommended",
         "plugin:react/recommended"
     ],
-    // "env": {
-
-    //     "browser": true
-    // },
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -81,7 +77,7 @@
 				"selector": "variable",
 				"format": ["camelCase"],
 				"filter": {
-				  "regex": "^(AppContext)$",
+				  "regex": "^(Tab|StackNavigator)$",
 				  "match": false
 				}
 			},
@@ -93,7 +89,7 @@
 				"selector": "parameter",
 				"format": ["camelCase"],
 				"filter": {
-					"regex": "^(AppContext)$",
+					"regex": "^(Tab|StackNavigator)$",
 					"match": false
 				}
 			},
