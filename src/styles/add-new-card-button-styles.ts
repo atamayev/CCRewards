@@ -6,6 +6,11 @@ const AddNewCardButtonStyles = StyleSheet.create({
 		right: 10,
 		bottom: 80,
 	},
+	backButton:{
+		position:"absolute",
+		top:20,
+		left:20
+	}
 })
 
 export default AddNewCardButtonStyles

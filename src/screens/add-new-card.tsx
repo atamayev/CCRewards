@@ -8,6 +8,7 @@ import ContainerStyles from "../styles/container-styles"
 import SelectCardIssuer from "../components/add-new-card/select-card-issuer"
 import ChooseACard from "../components/add-new-card/choose-a-card"
 import BackButton from "../components/back-button"
+import AddNewCardButtonStyles from "../styles/add-new-card-button-styles"
 
 export default function AddNewCard() {
 	const [issuer, setIssuer] = useState<string | null>(null)
@@ -38,7 +39,9 @@ export default function AddNewCard() {
 
 	return (
 		<View style = {ContainerStyles.container}>
-			<BackButton />
+			<View  style = {AddNewCardButtonStyles.backButton}>
+				<BackButton />
+			</View>
 
 			<Text>Add a New Card</Text>
 			<SelectCardIssuer
