@@ -5,6 +5,7 @@ const additionalPerks = {
 	"Cryptocurrency Rewards": "Earn rewards in the form of cryptocurrency.",
 	"Entertainment Access": "Get special access to events, concerts, or movie tickets.",
 	"Foreign Transaction Fee Waivers": "No foreign transaction fees when using the card abroad.",
+	"Get a $60 Amazon Gift Card": "Get a $60 Amazon Gift Card instantly upon approval.",
 	"Insurance Benefits": "Various types of insurance like travel, car rental, etc.",
 	"Lounge Access": "Gain access to airport lounges.",
 	"Purchase Protection": "Coverage against damage or theft for items purchased with the card.",

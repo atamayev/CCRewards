@@ -4,6 +4,9 @@ Plan:
 - Card list can be held in a json file in the app.
 - Hold user cards in async storage
 
+To-do:
+1. Remove all Spending categories with 'Credit' in the name
+
 Bugs:
 
 Feature Additions:

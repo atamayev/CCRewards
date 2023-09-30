@@ -1,9 +1,9 @@
 const creditCardIssuers = [
-	"Amex",
+	"American Express",
 	"Banorte USA",
 	"Banco Popular",
 	"Barclays",
-	"BofA",
+	"Bank Of America",
 	"Brex",
 	"Capital One",
 	"Celtic Bank",

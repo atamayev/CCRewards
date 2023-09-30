@@ -15,16 +15,20 @@ declare global {
 		"Reward Amount": string
 		"Reward Type": CreditCardRewardTypes
 		"Limit": string
+		"Note"?: string
 	}
 
 	interface CreditCardDetails {
 		"Card Issuer": CreditCardIssuers
 		"Description": string
-		"Annual Fee"?: number
+		"Annual Fee": number
 		"Rewards": {
 			[key in CreditCardSpendingCategories]?: RewardDetails
 		}
 		"Additional Perks"?: AdditionalPerks[]
+		"Information Link": string
+		"Notes"?: string[]
+		"Requirements"?: string[]
 	}
 
 	// After finishing the credit card list, change the type of creditCards to

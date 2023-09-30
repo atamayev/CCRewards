@@ -4,6 +4,8 @@ const creditCardRewardTypes = {
 	"Miles": "Earn miles for every dollar spent, usually redeemable for travel.",
 	"Points": "Accumulate points for every dollar spent, redeemable for various rewards.",
 	"Travel Credits": "Get credits that can be applied to travel-related expenses.",
+	"Other Credits": "Get credits that can be applied to other expenses.",
+	"Uber Cash": "Get credits that can be applied to Uber rides or Uber Eats orders.",
 }
 
 export default creditCardRewardTypes
