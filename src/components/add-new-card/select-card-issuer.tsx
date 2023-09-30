@@ -1,5 +1,6 @@
 import { Text } from "react-native"
-import { Picker } from "@react-native-picker/picker"
+import DropdownInput from "../dropdown-input"
+import creditCardsList from "../../credit-cards-list"
 
 interface Props {
 	issuer: string | null
@@ -12,12 +13,16 @@ export default function SelectCardIssuer (props: Props) {
 	return (
 		<>
 			<Text>Select a Credit Card Issuer:</Text>
-			<Picker selectedValue={issuer} onValueChange={(value) => handleIssuerChange(value as string)}>
-				<Picker.Item label="Select an issuer" value={null} />
-				<Picker.Item label="Chase" value="Chase" />
-				<Picker.Item label="Capital One" value="Capital One" />
-				<Picker.Item label="Bank of America" value="Bank of America" />
-			</Picker>
+			<DropdownInput
+				data = {creditCardsList}
+				labelField = "Label"
+				valueField = "Value"
+				placeholder = "Select item"
+				onChange = {(item) => {
+					handleIssuerChange(item)
+				}}
+				value = {issuer || ""}
+			/>
 		</>
 	)
 }

@@ -1,6 +1,6 @@
 import _ from "lodash"
 import { Text } from "react-native"
-import { Picker } from "@react-native-picker/picker"
+import DropdownInput from "../dropdown-input"
 
 interface Props {
 	showCardDropdown: boolean
@@ -18,27 +18,24 @@ export default function ChooseACard (props: Props) {
 		"Bank of America": ["BankAmericard", "Bank of America Cash Rewards"]
 	}
 
-	if (!showCardDropdown) return null
-
-	function SelectCard () {
-		if (_.isNull(issuer)) return null
-		return (
-			cardOptions[issuer].map((option) => (
-				<Picker.Item key={option} label={option} value={option} />
-			))
-		)
+	const handleSetCard = (value: string) => {
+		console.log("value", value)
+		setCard(value)
 	}
+
+	if (!showCardDropdown || _.isNull(issuer)) return null
 
 	return (
 		<>
 			<Text>Choose a Card:</Text>
-			<Picker
-				selectedValue = {card}
-				onValueChange={(value) => setCard(value as string)}
-			>
-				<Picker.Item label="Select a card" value={null} />
-				<SelectCard />
-			</Picker>
+			<DropdownInput
+				data = {cardOptions[issuer]}
+				labelField = "Label"
+				valueField = "Value"
+				placeholder = "Select item"
+				onChange = {(value) => handleSetCard(value as string)}
+				value = {card || ""}
+			/>
 		</>
 	)
 }

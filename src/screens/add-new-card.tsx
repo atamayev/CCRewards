@@ -18,6 +18,7 @@ export default function AddNewCard() {
 
 
 	const handleIssuerChange = (selectedIssuer: string) => {
+		console.log("selectedIssuer", selectedIssuer)
 		setIssuer(selectedIssuer)
 		setShowCardDropdown(true)
 	}
@@ -30,11 +31,9 @@ export default function AddNewCard() {
 	}
 
 	function ShowButton () {
-		if (!_.isNull(card)) {
-			return (
-				<Button title="Add Card" onPress={handleAddCard} />
-			)
-		}
+		if (_.isNull(card)) return null
+
+		return <Button title="Add Card" onPress={handleAddCard} />
 	}
 
 	return (
