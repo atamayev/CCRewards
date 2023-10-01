@@ -31,7 +31,7 @@ export default function AddNewCard() {
 	function ShowButton () {
 		if (_.isNull(card)) return null
 
-		return <Button title="Add Card" onPress={handleAddCard} />
+		return <Button title = "Add Card" onPress = {handleAddCard} />
 	}
 
 	return (

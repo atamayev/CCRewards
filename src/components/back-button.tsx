@@ -6,11 +6,7 @@ export default function BackButton() {
 	const navigation = useNavigation()
 
 	return (
-		<Pressable
-			onPress = {() => {
-				navigation.goBack()
-			}}
-		>
+		<Pressable onPress = {() => navigation.goBack()}>
 			<Ionicons name = "chevron-back-outline" size = {30} />
 		</Pressable>
 	)
