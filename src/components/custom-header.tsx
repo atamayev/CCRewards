@@ -12,7 +12,7 @@ export default function CustomHeader (props: Props) {
 	return (
 		<View style = {HeaderAreaStyles.headerArea}>
 			<View style = {HeaderAreaStyles.headerBackButton}>
-				<BackButton />
+				<BackButton/>
 			</View>
 			<Text style = {HeaderAreaStyles.headerText}>
 				{headerText}

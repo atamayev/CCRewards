@@ -9,6 +9,7 @@ const HeaderAreaStyles = StyleSheet.create({
 		top: 50,
 		left: 20,
 		width: 40,
+		zIndex:1
 	},
 	headerText: {
 		top: 20,
