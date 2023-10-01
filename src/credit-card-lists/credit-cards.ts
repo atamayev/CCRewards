@@ -945,6 +945,104 @@ const creditCards: SingleCreditCardData = {
 			"Purchase Protection"
 		]
 	},
+	"World of Hyatt Credit Card": {
+		"Card Issuer": "Chase",
+		"Description": "World of Hyatt Credit Card",
+		"Annual Fee": 95,
+		"Information Link": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
+		"Rewards": {
+			"Hyatt": {
+				"Reward Amount": "4X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "4 Bonus Points per $1 spent on purchases at all Hyatt hotels.*Same page link to Offer Details\
+					Plus, 5 Base Points from Hyatt per eligible $1 spent for being a World of Hyatt member"
+			},
+			"Dining": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "$15,000/year"
+			},
+			"Flights": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "$15,000/year"
+			},
+			"Fitness Club and Gym Memberships": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "$15,000/year"
+			},
+			"Public Transit": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "$15,000/year"
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+			"Purchase Protection"
+		],
+		"Notes": [
+			"1 free night at any Category 1-4 Hyatt hotel or resort every year after your cardmember anniversary"
+		]
+	},
+	"Citi Premier": {
+		"Card Issuer": "Citi",
+		"Description": "Citi Premier Card",
+		"Annual Fee": 95,
+		"Information Link": "https://www.citi.com/credit-cards/citi-premier-credit-card",
+		"Rewards": {
+			"Citi Travel": {
+				"Reward Amount": "10X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "Earn 10X Points on Hotel and Car Rental Bookings on the Citi TravelSM portal through 6/30/2024"
+			},
+			"Flights": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "Earn 3X Points on Air Travel and Hotels"
+			},
+			"Hotels": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "Earn 3X Points on Air Travel and Hotels"
+			},
+			"Dining": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "Earn 3X Points at Restaurants"
+			},
+			"Groceries": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "$1,000/month"
+			},
+			"Gas Stations": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "$1,000/month"
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+			"Purchase Protection"
+		]
+	},
 }
 
 export default creditCards
