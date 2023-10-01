@@ -17,6 +17,7 @@ const creditCardIssuers = [
 	"First Access",
 	"First Progress",
 	"Genesis FS Card Services",
+	"Goldman Sachs",
 	"HSBC",
 	"Merrick Bank",
 	"PenFed",

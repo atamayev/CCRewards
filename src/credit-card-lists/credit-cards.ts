@@ -246,7 +246,7 @@ const creditCards: SingleCreditCardData = {
 		"Card Issuer": "Chase",
 		"Description": "Chase Freedom Flex",
 		"Annual Fee": 0,
-		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex?CELL=6TKX&jp_cmp=cc/CCF/BRAND/SECH/NA/NA/NA/NA/na/na/na/na/CCF&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=chase%20freedom%20flex&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
+		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
 		"Rewards": {
 			"Chase Travel": {
 				"Reward Amount": "5%",
@@ -677,6 +677,272 @@ const creditCards: SingleCreditCardData = {
 		],
 		"Notes": [
 			"Get 50% more Membership Rewards® points. That's 1.5 points per dollar, on each eligible purchase of $5,000 or more. You can get up to 1 million additional points per year."
+		]
+	},
+	"Discover it Miles": {
+		"Card Issuer": "Discover",
+		"Description": "Discover it Miles",
+		"Annual Fee": 0,
+		"Information Link": "https://www.discover.com/credit-cards/travel/miles.html",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "1.5X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited"
+			}
+		},
+		"Notes": [
+			"Discover will automatically match all the Miles you've earned at the end of your first year."
+		]
+	},
+	"Discover it Student Cash Back": {
+		"Card Issuer": "Discover",
+		"Description": "Discover it Student Cash Back",
+		"Annual Fee": 0,
+		"Information Link": "https://www.discover.com/credit-cards/student/it-card.html",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			}
+		},
+		"Notes": [
+			"5% cash back on rotating categories each quarter like gas stations, grocery stores, restaurants, Amazon.com and more, up to the quarterly maximum each time you activate. Plus, unlimited 1% cash back on all other purchases.",
+			"Discover will automatically match all the cash back you've earned at the end of your first year."
+		]
+	},
+	"Discover it Cash Back": {
+		"Card Issuer": "Discover",
+		"Description": "Discover it Cash Back",
+		"Annual Fee": 0,
+		"Information Link": "https://www.discover.com/credit-cards/cash-back/it-card.html",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			}
+		},
+		"Notes": [
+			"5% cash back on rotating categories each quarter like gas stations, grocery stores, restaurants, Amazon.com and more, up to the quarterly maximum each time you activate. Plus, unlimited 1% cash back on all other purchases.",
+			"Discover will automatically match all the cash back you've earned at the end of your first year."
+		]
+	},
+	"Discover it Secured Credit Card": {
+		"Card Issuer": "Discover",
+		"Description": "Discover it Secured Credit Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.discover.com/credit-cards/secured/",
+		"Rewards": {
+			"Gas Stations": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "$1,000/quarter"
+			},
+			"Dining": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "$1,000/quarter"
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			}
+		},
+		"Notes": [
+			"2% cash back at gas stations and restaurants on up to $1,000 in combined purchases every quarter, automatically. Plus, earn unlimited 1% cash back on all other purchases.",
+			"Discover will automatically match all the cash back you've earned at the end of your first year."
+		]
+	},
+	"Southwest Rapid Rewards Premier Business Credit Card": {
+		"Card Issuer": "Chase",
+		"Description": "Southwest Rapid Rewards Premier Business Credit Card",
+		"Annual Fee": 199,
+		"Information Link": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+		"Rewards": {
+			"Southwest Airlines": {
+				"Reward Amount": "4X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Rapid Rewards hotel and car rental partner purchases": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Transportation": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "Earn 2 points for each dollar spent on local transit and commuting, including rideshare."
+			},
+			"Internet, Cable, and Phone Services": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Social Media and Search Engine Advertising": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+			"Purchase Protection"
+		],
+		"Notes": [
+			"9,000 bonus points after your Cardmember anniversary each year",
+			"Global Entry or TSA PreCheck Credit: Get up to $100 back every 4 years as a statement credit for Global Entry or TSA PreCheck"
+		]
+	},
+	"Apple Card": {
+		"Card Issuer": "Goldman Sachs",
+		"Description": "Apple Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.apple.com/apple-card/",
+		"Rewards": {
+			"Apple Products and Services": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"Ace Hardware": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"Duane Reade": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"Exxon": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"Mobil": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"Panera Bread": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"T-Mobile": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"Walgreens": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"Uber": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"Nike": {
+				"Reward Amount": "3%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+			},
+			"Apple Pay": {
+				"Reward Amount": "2%",
+				"Reward Type": "Daily Cash",
+				"Limit": "Unlimited",
+				"Note": "Earn 2% Daily Cash back every time you pay with your iPhone or Apple Watch."
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection"
+		],
+		"Notes": [
+			"Get 3% Daily Cash back on purchases from Apple when you use Apple Card"
+		]
+	},
+	"Wells Fargo Active Cash Card": {
+		"Card Issuer": "Wells Fargo",
+		"Description": "Wells Fargo Active Cash Card",
+		"Annual Fee": 0,
+		"Information Link": "https://creditcards.wellsfargo.com/active-cash-credit-card",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			}
+		},
+		"Notes": [
+			"Get 2% cash rewards on purchases"
+		]
+	},
+	"Chase Freedom Rise": {
+		"Card Issuer": "Chase",
+		"Description": "Chase Freedom Rise",
+		"Annual Fee": 0,
+		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/rise",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "1.5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection"
+		]
+	},
+	"Capital One Venture X": {
+		"Card Issuer": "Capital One",
+		"Description": "Capital One Venture X",
+		"Annual Fee": 395,
+		"Information Link": "https://www.capitalone.com/credit-cards/venture-x/",
+		"Rewards": {
+			"Hotels": {
+				"Reward Amount": "10X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "Earn 10X miles on hotels booked through Capital One Travel℠"
+			},
+			"Car Rentals": {
+				"Reward Amount": "10X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "Earn 10X miles on rental cars booked through Capital One Travel℠"
+			},
+			"Flights": {
+				"Reward Amount": "5X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "Earn 5X miles on flights booked through Capital One Travel℠"
+			},
+			"Everything Else": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Lounge Access",
+			"Purchase Protection"
 		]
 	},
 }
