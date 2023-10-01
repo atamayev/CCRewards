@@ -6,6 +6,8 @@ Plan:
 
 To-do:
 1. Remove all Spending categories with 'Credit' in the name
+2. Add copyright and trademark symbols to the cards everywhere
+3. Delete all unused credit issuers
 
 Bugs:
 

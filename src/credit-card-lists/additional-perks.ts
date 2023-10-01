@@ -9,7 +9,8 @@ const additionalPerks = {
 	"Insurance Benefits": "Various types of insurance like travel, car rental, etc.",
 	"Lounge Access": "Gain access to airport lounges.",
 	"Purchase Protection": "Coverage against damage or theft for items purchased with the card.",
-	"VIP Experiences": "Special VIP access to events or locations."
+	"VIP Experiences": "Special VIP access to events or locations.",
+	"Virtual Card Numbers": "Create virtual card numbers for online purchases.",
 }
 
 export default additionalPerks

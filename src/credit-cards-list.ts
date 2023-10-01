@@ -38,7 +38,7 @@ const creditCardsList: CardData[] = [
 		"credit_limit":2000,
 	},
 	{
-		"name": "Chase Freedom Flex®",
+		"name": "Chase Freedom Flex Credit Card®",
 		"rewards": "5% cashback on rotating categories, 1% on all other purchases.",
 		"image_url": "https://creditcards.chase.com/K-Marketplace/images/cardart/freedom_flex_card_alt.png",
 		"credit_limit":2000,

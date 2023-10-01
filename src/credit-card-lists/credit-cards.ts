@@ -72,9 +72,9 @@ const creditCards: SingleCreditCardData = {
 			"Must be an Amazon Prime member to get this card"
 		]
 	},
-	"American Express Gold Card": {
+	"American Express® Gold Card": {
 		"Card Issuer": "American Express",
-		"Description": "American Express Gold Card",
+		"Description": "American Express® Gold Card",
 		"Annual Fee": 250,
 		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/gold-card/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:gold-card",
 		"Rewards": {
@@ -113,9 +113,9 @@ const creditCards: SingleCreditCardData = {
 			"$120 Dining Credit: Earn up to a total of $10 in statement credits monthly when you pay with the Gold Card at Grubhub, The Cheesecake Factory, Goldbelly, Wine.com, Milk Bar, and select Shake Shack locations. This can be an annual savings of up to $120",
 		]
 	},
-	"American Express Platinum Card": {
+	"The Platinum Card®": {
 		"Card Issuer": "American Express",
-		"Description": "American Express Platinum Card",
+		"Description": "The Platinum Card®",
 		"Annual Fee": 695,
 		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/platinum/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:platinum-card",
 		"Rewards": {
@@ -190,9 +190,9 @@ const creditCards: SingleCreditCardData = {
 			"Global Entry or TSA PreCheck Credit: Get up to $100 back every 4 years as a statement credit for Global Entry or TSA PreCheck"
 		]
 	},
-	"Blue Cash Preferred Card from American Express": {
+	"Blue Cash Preferred® Card": {
 		"Card Issuer": "American Express",
-		"Description": "Blue Cash Preferred Card from American Express",
+		"Description": "Blue Cash Preferred® Card",
 		"Annual Fee": 0,
 		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:blue-cash-preferred-card",
 		"Rewards": {
@@ -209,12 +209,14 @@ const creditCards: SingleCreditCardData = {
 			"Transportation": {
 				"Reward Amount": "3%",
 				"Reward Type": "Cash Back",
-				"Limit": "$6,000/year"
+				"Limit": "$6,000/year",
+				"Note":  "Transit includes taxis, rideshare, parking, tolls, trains, buses, and more."
 			},
 			"Gas Stations": {
 				"Reward Amount": "3%",
 				"Reward Type": "Cash Back",
-				"Limit": "$6,000/year"
+				"Limit": "$6,000/year",
+				"Note": "U.S. gas stations only"
 			},
 			"Disney Bundle": {
 				"Reward Amount": "$7/month",
@@ -242,9 +244,9 @@ const creditCards: SingleCreditCardData = {
 			"$250 Statement Credit: Earn a $250 statement credit after you spend $1,000 in purchases on your new Card within the first 3 months."
 		]
 	},
-	"Chase Freedom Flex": {
+	"Chase Freedom Flex Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Chase Freedom Flex",
+		"Description": "Chase Freedom Flex Credit Card",
 		"Annual Fee": 0,
 		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
 		"Rewards": {
@@ -278,9 +280,9 @@ const creditCards: SingleCreditCardData = {
 			"Earn 5% cash back in quarterly bonus categories that you activate each quarter, on up to $1,500 in combined purchases."
 		]
 	},
-	"Chase Freedom Unlimited": {
+	"Chase Freedom Unlimited® Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Chase Freedom Unlimited",
+		"Description": "Chase Freedom Unlimited® Credit Card",
 		"Annual Fee": 0,
 		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited?CELL=6TKX&jp_cmp=cc/CCF/BRAND/SECH/NA/NA/NA/NA/na/na/na/na/CCF&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=chase%20freedom%20unlimited&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
 		"Rewards": {
@@ -311,9 +313,9 @@ const creditCards: SingleCreditCardData = {
 			"Purchase Protection"
 		]
 	},
-	"Chase Sapphire Preferred": {
+	"Chase Sapphire Preferred® Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Chase Sapphire Preferred",
+		"Description": "Chase Sapphire Preferred® Credit Card",
 		"Annual Fee": 95,
 		"Information Link": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred?CELL=6TKX&jp_cmp=cc/Sapphire/Exact_SEM/US/NA/NA/NA/Chase_Sapphire_Prefered/Chase_Sapphire_Prefered/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=chase%20sapphire%20preferred&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
 		"Rewards": {
@@ -398,9 +400,9 @@ const creditCards: SingleCreditCardData = {
 			"Get 50% more value when you redeem for airfare, hotels, car rentals and cruises through Chase Ultimate Rewards. For example, 60,000 points are worth $900 toward travel"
 		]
 	},
-	"Citi Double Cash Card": {
+	"Citi Double Cash® Credit Card": {
 		"Card Issuer": "Citi",
-		"Description": "Citi Double Cash Card",
+		"Description": "Citi Double Cash® Credit Card",
 		"Annual Fee": 0,
 		"Information Link": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
 		"Rewards": {
@@ -1041,6 +1043,803 @@ const creditCards: SingleCreditCardData = {
 		"Additional Perks": [
 			"Foreign Transaction Fee Waivers",
 			"Purchase Protection"
+		]
+	},
+	"United Explorer Card": {
+		"Card Issuer": "Chase",
+		"Description": "United Explorer Card",
+		"Annual Fee": 0,
+		"Information Link": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+		"Rewards": {
+			"United Airlines": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "2 miles per $1 spent on purchases from United, including Economy Plus®, inflight food, beverages and Wi-Fi, and other United charges."
+			},
+			"Flights": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "2 miles per $1 spent on purchases from United, including tickets,"
+			},
+			"Hotels": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "2 miles per $1 spent on hotel accommodations when purchased directly with the hotel."
+			},
+			"Dining": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "2 miles per $1 spent on dining, including eligible delivery services."
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Capital One Platinum Credit Card": {
+		"Card Issuer": "Capital One",
+		"Description": "Capital One Platinum Credit Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.capitalone.com/credit-cards/platinum/",
+		"Rewards": {
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Virtual Card Numbers",
+			"Foreign Transaction Fee Waivers"
+		],
+		"Notes": [
+			"The Capital One Platinum card does not offer any rewards, such as cash back, travel miles, or points. This is because the card is designed to help consumers build or rebuild credit"
+		]
+	},
+	"Capital One QuicksilverOne Cash Rewards": {
+		"Card Issuer": "Capital One",
+		"Description": "Capital One QuicksilverOne Cash Rewards",
+		"Annual Fee": 39,
+		"Information Link": "https://www.capitalone.com/credit-cards/quicksilverone/",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "1.5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Virtual Card Numbers",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Capital One Savor": {
+		"Card Issuer": "Capital One",
+		"Description": "Capital One Savor",
+		"Annual Fee": 95,
+		"Information Link": "https://www.capitalone.com/credit-cards/savor-dining-rewards/",
+		"Rewards": {
+			"Dining": {
+				"Reward Amount": "4%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Entertainment": {
+				"Reward Amount": "4%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Streaming Services": {
+				"Reward Amount": "4%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Groceries": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "$6,000/year"
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Virtual Card Numbers",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Capital One SavorOne": {
+		"Card Issuer": "Capital One",
+		"Description": "Capital One SavorOne",
+		"Annual Fee": 0,
+		"Information Link": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
+		"Rewards": {
+			"Dining": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Entertainment": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Streaming Services": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Groceries": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Virtual Card Numbers",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Bank of America Travel Rewards": {
+		"Card Issuer": "Bank of America",
+		"Description": "Bank of America Travel Rewards",
+		"Annual Fee": 0,
+		"Information Link": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
+		"Rewards": {
+			"Travel": {
+				"Reward Amount": "1.5X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Bank of America Customized Cash Rewards": {
+		"Card Issuer": "Bank of America",
+		"Description": "Bank of America Customized Cash Rewards",
+		"Annual Fee": 0,
+		"Information Link": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+		"Rewards": {
+			"Variable Spending Category": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "$2,500/quarter",
+				"Note": "Choose which category you want to earn 3% cash back in: gas and EV charging stations; online shopping, including cable, internet, phone plans and streaming; dining; travel; drug stores and pharmacies; or home improvement and furnishings"
+			},
+			"Groceries": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "$2,500/quarter"
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "$2,500/quarter"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		],
+		"Notes": [
+			"Earn 3% and 2% cash back on the first $2,500 in combined purchases each quarter in the choice category, and at grocery stores and wholesale clubs, then earn unlimited 1% thereafter."
+		]
+	},
+	"Citi Custom Cash® Card": {
+		"Card Issuer": "Citi",
+		"Description": "Citi Custom Cash® Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+		"Rewards": {
+			"Variable Spending Category": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "$500/month",
+				"Note": "Earn 5% cash back on purchases in your top eligible spend category each billing cycle, up to the first $500 spent, 1% cash back thereafter"
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		],
+		"Notes": [
+			"5% cash back on purchases in your top eligible spend category each billing cycle, up to the first $500 spent, 1% cash back thereafter"
+		]
+	},
+	"Amex EveryDay® Credit Card": {
+		"Card Issuer": "American Express",
+		"Description": "Amex EveryDay® Credit Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/amex-everyday/",
+		"Rewards": {
+			"Groceries": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "$6,000/year"
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection"
+		]
+	},
+	"Cash Magnet® Card": {
+		"Card Issuer": "American Express",
+		"Description": "Cash Magnet® Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "1.5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection"
+		]
+	},
+	"Blue Cash Everyday® Card": {
+		"Card Issuer": "American Express",
+		"Description": "Blue Cash Everyday® Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+		"Rewards": {
+			"Groceries": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "$6,000/year"
+			},
+			"U.S. Online Retail Purhchases": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Gas Stations": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "$6,000/year"
+			},
+			"Home Chef": {
+				"Reward Amount": "$15/month",
+				"Reward Type": "Other Credits",
+				"Limit": "$180/year",
+				"Note": "Recieve up to $15 per month in statement credits when you purchase an auto-renewing subscription for Home Chef meal kits with your enrolled Card."
+			},
+			"Disney Bundle": {
+				"Reward Amount": "$7/month",
+				"Reward Type": "Cash Back",
+				"Limit": "$84/year",
+				"Note": "Recieve $7 back monthly after spending $9.99 or more each month on a subscription to the Disney Bundle."
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection"
+		]
+	},
+	"Delta SkyMiles® Gold American Express Card": {
+		"Card Issuer": "American Express",
+		"Description": "Delta SkyMiles® Gold American Express Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold/",
+		"Rewards": {
+			"Dining": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "2X Miles at restaurants, including takeout and delivery."
+			},
+			"Groceries": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "$10,000/year",
+				"Note": "2X Miles at U.S. supermarkets."
+			},
+			"Delta": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "2X Miles on Delta purchases, made directly with Delta."
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+			"Purchase Protection"
+		]
+	},
+	"Delta SkyMiles® Blue American Express Card": {
+		"Card Issuer": "American Express",
+		"Description": "Delta SkyMiles® Blue American Express Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue/",
+		"Rewards": {
+			"Dining": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "2X Miles at restaurants, including takeout and delivery."
+			},
+			"Delta": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "2X Miles on Delta purchases, made directly with Delta."
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+			"Purchase Protection"
+		]
+	},
+	"Delta SkyMiles® Platinum American Express Card": {
+		"Card Issuer": "American Express",
+		"Description": "Delta Skymiles® Platinum American Express Card",
+		"Annual Fee": 250,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum/",
+		"Rewards": {
+			"Delta": {
+				"Reward Amount": "3X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "3X Miles on Delta purchases, made directly with Delta."
+			},
+			"Hotels": {
+				"Reward Amount": "3X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "3X Miles at hotels, made directly with hotels."
+			},
+			"Dining": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "3X Miles at restaurants, including takeout and delivery."
+			},
+			"Groceries": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "$10,000/year",
+				"Note": "2X Miles at U.S. supermarkets."
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+			"Purchase Protection"
+		]
+	},
+	"Delta SkyMiles® Reserve American Express Card": {
+		"Card Issuer": "American Express",
+		"Description": "Delta SkyMiles® Reserve American Express Card",
+		"Annual Fee": 550,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve/",
+		"Rewards": {
+			"Delta": {
+				"Reward Amount": "3X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "3X Miles on Delta purchases, made directly with Delta."
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+			"Purchase Protection"
+		]
+	},
+	"Delta SkyMiles® Platinum Business Card": {
+		"Card Issuer": "American Express",
+		"Description": "Delta SkyMiles® Platinum Business Card",
+		"Annual Fee": 250,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-business/",
+		"Rewards": {
+			"Delta": {
+				"Reward Amount": "3X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "3X Miles Per every eligible dollar spent on purchases made directly with Delta and hotels."
+			},
+			"Large Purchases": {
+				"Reward Amount": "1.5X",
+				"Reward Type": "Miles",
+				"Limit": "$50,000/year",
+				"Note": "1.5X Miles Per every eligible dollar spent on purchases of $5,000 or more."
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+			"Purchase Protection"
+		]
+	},
+	"Hilton Honors Card": {
+		"Card Issuer": "American Express",
+		"Description": "Hilton Honors Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+		"Rewards": {
+			"Hilton": {
+				"Reward Amount": "7X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "7X Hilton Honors Bonus Points for each dollar of eligible purchases charged on your Card directly with a participating hotel or resort within the Hilton Portfolio."
+			},
+			"Dining": {
+				"Reward Amount": "5X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "5X Hilton Honors Bonus Points at U.S. restaurants, including takeout and delivery."
+			},
+			"Groceries": {
+				"Reward Amount": "5X",
+				"Reward Type": "Points",
+				"Limit": "$15,000/year",
+				"Note": "5X Hilton Honors Bonus Points at U.S. supermarkets."
+			},
+			"Gas Stations": {
+				"Reward Amount": "5X",
+				"Reward Type": "Points",
+				"Limit": "$15,000/year",
+				"Note": "5X Hilton Honors Bonus Points at U.S. gas stations."
+			},
+			"Everything Else": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Hilton Honors American Express Surpass® Card": {
+		"Card Issuer": "American Express",
+		"Description": "Hilton Honors American Express Surpass® Card",
+		"Annual Fee": 95,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+		"Rewards": {
+			"Hilton": {
+				"Reward Amount": "12X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "12X Hilton Honors Bonus Points for each dollar of eligible purchases charged on your Card directly with a participating hotel or resort within the Hilton Portfolio."
+			},
+			"Dining": {
+				"Reward Amount": "6X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "6X Hilton Honors Bonus Points at U.S. restaurants, including takeout and delivery."
+			},
+			"Groceries": {
+				"Reward Amount": "6X",
+				"Reward Type": "Points",
+				"Limit": "$15,000/year",
+				"Note": "6X Hilton Honors Bonus Points at U.S. supermarkets."
+			},
+			"Gas Stations": {
+				"Reward Amount": "6X",
+				"Reward Type": "Points",
+				"Limit": "$15,000/year",
+				"Note": "6X Hilton Honors Bonus Points at U.S. gas stations."
+			},
+			"Everything Else": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Lounge Access",
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Hilton Honors American Express Aspire Card": {
+		"Card Issuer": "American Express",
+		"Description": "Hilton Honors American Express Aspire Card",
+		"Annual Fee": 450,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+		"Rewards": {
+			"Hilton": {
+				"Reward Amount": "14X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "14X Hilton Honors Bonus Points for each dollar of eligible purchases charged on your Card directly with a participating hotel or resort within the Hilton Portfolio."
+			},
+			"Flights": {
+				"Reward Amount": "7X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "7X Hilton Honors Bonus Points on flights booked directly with airlines or amextravel.com, and car rentals booked directly from select car rental companies."
+			},
+			"Dining": {
+				"Reward Amount": "7X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "7X Hilton Honors Bonus Points at U.S. restaurants, including takeout and delivery."
+			},
+			"Everything Else": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Lounge Access",
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		],
+		"Notes": [
+			"Enjoy up to $250 in Hilton Resort Credits on your Card each anniversary year, when you stay at participating resorts within the Hilton portfolio."
+		]
+	},
+	"American Express® Green Card": {
+		"Card Issuer": "American Express",
+		"Description": "American Express® Green Card",
+		"Annual Fee": 150,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/green/",
+		"Rewards": {
+			"Travel": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "3X Membership Rewards® points on eligible travel, including transit, flights, hotels, restaurants, tours, cruises, and more."
+			},
+			"Flights": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "3X Membership Rewards® points on flights booked directly with airlines or on amextravel.com."
+			},
+			"Hotels": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "3X Membership Rewards® points on hotels booked directly with hotels."
+			},
+			"Dining": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "$25,000/year",
+				"Note": "3X Points worldwide, including takeout and delivery in the US."
+			},
+			"Transportation": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "$25,000/year",
+				"Note": "3X Points including trains, taxicabs, rideshare services, ferries, tolls, parking, buses, and subways."
+			},
+			"CLEAR Plus Credit": {
+				"Reward Amount": "$189/year",
+				"Reward Type": "Other Credits",
+				"Limit": "$189/year",
+				"Note": "Get up to $189 back per year on your CLEAR membership"
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Additional Perks": [
+			"Lounge Access",
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Brex Corporate Card for Startups": {
+		"Card Issuer": "Brex",
+		"Description": "Brex Corporate Card for Startups",
+		"Annual Fee": 0,
+		"Information Link": "https://brex.com/startups/",
+		"Rewards": {
+			"Ride-Sharing": {
+				"Reward Amount": "7X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Brex Travel": {
+				"Reward Amount": "4X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Dining": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Apple Products and Services": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Reoccurring Software": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited"
+			},
+		},
+		"Notes": [
+			"Startups can qualify for a credit limit 10-20x higher than traditional small business cards."
+		]
+	},
+	"Bilt Mastercard®": {
+		"Card Issuer": "Bilt",
+		"Description": "Bilt Mastercard®",
+		"Annual Fee": 0,
+		"Information Link": "https://www.bilt.com/credit-card",
+		"Rewards": {
+			"Dining": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Travel": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Rent": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Up to 100,000 points each calendar year",
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+		},
+		"Notes": [
+			"Use the card 5 times each statement period to earn points."
+		]
+	},
+	"Gemini Credit Card®": {
+		"Card Issuer": "Gemini",
+		"Description": "Gemini Credit Card®",
+		"Annual Fee": 0,
+		"Information Link": "https://www.gemini.com/credit-card",
+		"Rewards": {
+			"Dining": {
+				"Reward Amount": "3%",
+				"Reward Type": "Crypto Back",
+				"Limit": "Unlimited",
+			},
+			"Groceries": {
+				"Reward Amount": "2%",
+				"Reward Type": "Crypto Back",
+				"Limit": "Unlimited",
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Crypto Back",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers"
+		],
+		"Notes": [
+			"No exchange fees to acquire your rewards."
+		]
+	},
+	"X1 Card": {
+		"Card Issuer": "X1",
+		"Description": "X1 Card",
+		"Annual Fee": 0,
+		"Information Link": "https://x1creditcard.com/",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "Points become 3X every time you spend $1,000 in a month"
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Fidelity® Rewards Visa Signature® Credit Card": {
+		"Card Issuer": "Fidelity",
+		"Description": "Fidelity® Rewards Visa Signature® Credit Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.fidelity.com/spend-save/visa-signature-card/",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"SoFi Credit Card": {
+		"Card Issuer": "SoFi",
+		"Description": "SoFi Credit Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.sofi.com/credit-card/",
+		"Rewards": {
+			"Expedia": {
+				"Reward Amount": "3%",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "Earn unlimited 3% cash back rewards when you use your SoFi Credit Card to book trips through the new SoFi Travel powered by Expedia"
+			},
+			"Everything Else": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers",
+			"Cell Phone Protection"
 		]
 	},
 }

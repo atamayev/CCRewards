@@ -3,7 +3,8 @@ const creditCardIssuers = [
 	"Banorte USA",
 	"Banco Popular",
 	"Barclays",
-	"Bank Of America",
+	"Bank of America",
+	"Bilt",
 	"Brex",
 	"Capital One",
 	"Celtic Bank",
@@ -16,17 +17,20 @@ const creditCardIssuers = [
 	"Fidelity",
 	"First Access",
 	"First Progress",
+	"Gemini",
 	"Genesis FS Card Services",
 	"Goldman Sachs",
 	"HSBC",
 	"Merrick Bank",
 	"PenFed",
 	"Petal",
+	"SoFi",
 	"Synchrony",
 	"TD Bank",
 	"The Bank of Missouri",
 	"U.S. Bank",
-	"Wells Fargo"
+	"Wells Fargo",
+	"X1"
 ] as const
 
 export default creditCardIssuers
