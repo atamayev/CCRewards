@@ -13,7 +13,7 @@ export default function SelectCardIssuer (props: Props) {
 		<>
 			<Text>Select a Credit Card Issuer:</Text>
 			<DropdownInput
-				data = {creditCardIssuers}
+				data = {[...creditCardIssuers]}
 				labelField = "Label"
 				valueField = "Value"
 				placeholder = "Select item"

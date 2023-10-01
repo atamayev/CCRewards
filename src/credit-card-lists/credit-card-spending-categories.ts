@@ -70,7 +70,7 @@ const creditCardSpendingCategories = [
 	"Target",
 	"Taxis and Limousines",
 	"Technology",
-	"Telecommunications",
+	"Telephone Service Providers",
 	"Toys and Games",
 	"Transportation",
 	"Travel",
