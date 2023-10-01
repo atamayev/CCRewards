@@ -1,14 +1,13 @@
 import _ from "lodash"
 import { useState } from "react"
-import { View, Text, Button } from "react-native"
+import { View, Button } from "react-native"
 import AsyncStorage from "@react-native-async-storage/async-storage"
 import { useNavigation } from "@react-navigation/native"
 import { StackNavigationProp } from "@react-navigation/stack"
 import ContainerStyles from "../styles/container-styles"
 import SelectCardIssuer from "../components/add-new-card/select-card-issuer"
 import ChooseACard from "../components/add-new-card/choose-a-card"
-import BackButton from "../components/back-button"
-import AddNewCardButtonStyles from "../styles/add-new-card-button-styles"
+import CustomHeader from "../components/custom-header"
 
 export default function AddNewCard() {
 	const [issuer, setIssuer] = useState<string | null>(null)
@@ -39,14 +38,10 @@ export default function AddNewCard() {
 
 	return (
 		<View style = {ContainerStyles.container}>
-			<View  style = {AddNewCardButtonStyles.backButton}>
-				<BackButton />
-			</View>
-
-			<Text>Add a New Card</Text>
+			<CustomHeader headerText = {"Add New Card"} />
 			<SelectCardIssuer
-				issuer={issuer}
-				handleIssuerChange={handleIssuerChange}
+				issuer = {issuer}
+				handleIssuerChange = {handleIssuerChange}
 			/>
 
 			<ChooseACard
