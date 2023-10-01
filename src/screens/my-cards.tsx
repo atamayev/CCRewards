@@ -1,11 +1,10 @@
-import { useState} from "react"
 import { useNavigation } from "@react-navigation/native"
 import { StackNavigationProp } from "@react-navigation/stack"
 import Ionicons from "react-native-vector-icons/Ionicons"
 import { Pressable, View, Text, FlatList } from "react-native"
 import creditCardsList from "../credit-cards-list"
 import ContainerStyles from "../styles/container-styles"
-import AddNewCardButtonStyles from "../styles/add-new-card-button-styles"
+import AddNewCardStyles from "../styles/add-new-card-styles"
 import MyCardsCard from "../components/my-cards-card"
 
 export default function MyCards () {
@@ -15,17 +14,15 @@ export default function MyCards () {
 		navigation.navigate("AddNewCard")
 	}
 
-
-
 	return (
-		<View style={ContainerStyles.container}>
-			<View style={{ position: "absolute", top: 30, left: 20 }}>
-				<Text style={{ fontWeight: "bold", fontSize: 30 }}>My Cards</Text>
+		<View style = {ContainerStyles.container}>
+			<View style = {{ position: "absolute", top: 30, left: 20 }}>
+				<Text style = {{ fontWeight: "bold", fontSize: 30 }}>My Cards</Text>
 			</View>
 
 			<FlatList
 				data = {creditCardsList}
-				renderItem = {({ item}) => (
+				renderItem = {({ item }) => (
 					<MyCardsCard
 						cardData = {item}
 						style = {{
@@ -34,10 +31,11 @@ export default function MyCards () {
 							borderRadius: 10,
 							marginTop:10,
 						}}
+						onPress = {() => navigation.navigate("CardDetails", { cardData: item.name })}
 					/>
 				)}
 			/>
-			<Pressable onPress = {handleAddCard} style = {AddNewCardButtonStyles.plusIcon}>
+			<Pressable onPress = {handleAddCard} style = {AddNewCardStyles.plusIcon}>
 				<Ionicons name = "add-circle" size = {60} />
 			</Pressable>
 		</View>

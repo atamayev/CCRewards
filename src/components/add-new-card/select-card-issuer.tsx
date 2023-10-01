@@ -1,6 +1,7 @@
-import { Text } from "react-native"
+import { Text, View } from "react-native"
 import DropdownInput from "../dropdown-input"
 import creditCardIssuers from "../../credit-card-lists/credit-card-issuers"
+import AddNewCardStyles from "../../styles/add-new-card-styles"
 
 interface Props {
 	issuer: string | null
@@ -9,11 +10,27 @@ interface Props {
 
 export default function SelectCardIssuer (props: Props) {
 	const { issuer, handleIssuerChange } = props
+
+	const creditCardIssuerOptions = creditCardIssuers.map(issuerItem => ({
+		Label: issuerItem,
+		Value: issuerItem
+	}))
+
+	const creditCardIssuersList = [
+		{
+			Label: "Select an Issuer",
+			Value: null
+		},
+		...creditCardIssuerOptions
+	]
+
 	return (
-		<>
-			<Text>Select a Credit Card Issuer:</Text>
+		<View>
+			<Text style = {AddNewCardStyles.selectCardIssuer}>
+				Select a Credit Card Issuer:
+			</Text>
 			<DropdownInput
-				data = {[...creditCardIssuers]}
+				data = {creditCardIssuersList}
 				labelField = "Label"
 				valueField = "Value"
 				placeholder = "Select item"
@@ -21,7 +38,8 @@ export default function SelectCardIssuer (props: Props) {
 					handleIssuerChange(item)
 				}}
 				value = {issuer || ""}
+				customStyle = {AddNewCardStyles.dropdownInputStyles}
 			/>
-		</>
+		</View>
 	)
 }

@@ -19,7 +19,6 @@ export default function ChooseACard (props: Props) {
 	}
 
 	const handleSetCard = (value: string) => {
-		console.log("value", value)
 		setCard(value)
 	}
 
