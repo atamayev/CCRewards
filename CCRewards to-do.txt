@@ -5,8 +5,8 @@ Plan:
 - Hold user cards in async storage
 
 To-do:
-1. Add a consumer or business atribute to each credit card item
-3. add a last-updated attribute to each credit card
+3. Add picture links to each card
+4. Fill in better descriptions for each of the cards
 
 Bugs:
 

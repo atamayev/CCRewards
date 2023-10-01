@@ -33,6 +33,7 @@ const creditCardNames = [
 	"Citi Double Cash® Credit Card",
 	"Citi Premier® Card",
 	"Costco Anywhere Visa® Card by Citi",
+	"Costco Anywhere Visa® Business Card by Citi",
 	"Delta SkyMiles® Blue American Express Card",
 	"Delta SkyMiles® Gold American Express Card",
 	"Delta SkyMiles® Platinum American Express Card",

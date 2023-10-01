@@ -1,10 +1,13 @@
 /* eslint-disable max-len */
-const creditCards: SingleCreditCardData = {
+const creditCards: CreditCardData = {
 	"Amazon Rewards Visa Signature": {
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Card Issuer": "Chase",
 		"Description": "Amazon Rewards Visa Signature Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.amazon.com/Prime-Visa/dp/BT00LN946S",
+		"Information URL": "https://www.amazon.com/Prime-Visa/dp/BT00LN946S",
 		"Rewards": {
 			"Amazon": {
 				"Reward Amount": "3%",
@@ -55,9 +58,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Amazon Prime Rewards Visa Signature": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Amazon Prime Rewards Visa Signature Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.amazon.com/Prime-Visa/dp/BT00LN946S",
+		"Information URL": "https://www.amazon.com/Prime-Visa/dp/BT00LN946S",
 		"Rewards": {
 			"Amazon": {
 				"Reward Amount": "5%",
@@ -108,9 +114,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Amazon Prime Store Card": {
 		"Card Issuer": "Synchrony",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Amazon Prime Store Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8",
+		"Information URL": "https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8",
 		"Rewards": {
 			"Amazon": {
 				"Reward Amount": "5%",
@@ -124,9 +133,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"American Express® Gold Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "American Express® Gold Card",
 		"Annual Fee": 250,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/gold-card/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:gold-card",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/gold-card/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:gold-card",
 		"Rewards": {
 			"Dining": {
 				"Reward Amount": "4X",
@@ -165,9 +177,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"The Platinum Card®": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "The Platinum Card®",
 		"Annual Fee": 695,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/platinum/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:platinum-card",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/platinum/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:platinum-card",
 		"Rewards": {
 			"CLEAR Plus": {
 				"Reward Amount": "$189/year",
@@ -242,9 +257,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Blue Cash Preferred® Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Blue Cash Preferred® Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:blue-cash-preferred-card",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:blue-cash-preferred-card",
 		"Rewards": {
 			"Streaming Services": {
 				"Reward Amount": "6%",
@@ -296,9 +314,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Chase Freedom Flex℠ Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Chase Freedom Flex℠ Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+		"Information URL": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
 		"Rewards": {
 			"Chase Travel": {
 				"Reward Amount": "5%",
@@ -332,9 +353,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Chase Freedom Unlimited® Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Chase Freedom Unlimited® Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited?CELL=6TKX&jp_cmp=cc/CCF/BRAND/SECH/NA/NA/NA/NA/na/na/na/na/CCF&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=chase%20freedom%20unlimited&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
+		"Information URL": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
 		"Rewards": {
 			"Chase Travel": {
 				"Reward Amount": "5%",
@@ -365,9 +389,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Chase Sapphire Preferred® Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Chase Sapphire Preferred® Credit Card",
 		"Annual Fee": 95,
-		"Information Link": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred?CELL=6TKX&jp_cmp=cc/Sapphire/Exact_SEM/US/NA/NA/NA/Chase_Sapphire_Prefered/Chase_Sapphire_Prefered/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=chase%20sapphire%20preferred&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
+		"Information URL": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
 		"Rewards": {
 			"Chase Travel": {
 				"Reward Amount": "5X",
@@ -412,9 +439,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Chase Sapphire Reserve® Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Chase Sapphire Reserve® Credit Card",
 		"Annual Fee": 550,
-		"Information Link": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve?CELL=6TKX&jp_cmp=cc/Sapphire/Exact_SEM/US/NA/NA/NA/Chase_Sapphire_Reserve/Chase_Sapphire_Reserve/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=chase%20sapphire%20reserve&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
+		"Information URL": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
 		"Rewards": {
 			"Flights": {
 				"Reward Amount": "5X",
@@ -452,9 +482,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Citi Double Cash® Credit Card": {
 		"Card Issuer": "Citi",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Citi Double Cash® Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+		"Information URL": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "2%",
@@ -462,15 +495,18 @@ const creditCards: SingleCreditCardData = {
 				"Limit": "Unlimited"
 			}
 		},
-		Notes: [
+		"Notes": [
 			"1% cash back on purchases + 1% cash back when you pay for those purchases"
 		]
 	},
 	"Costco Anywhere Visa® Card by Citi": {
 		"Card Issuer": "Citi",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Costco Anywhere Visa® Card by Citi",
 		"Annual Fee": 0,
-		"Information Link": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
+		"Information URL": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
 		"Rewards": {
 			"Gas Stations": {
 				"Reward Amount": "4%",
@@ -503,14 +539,62 @@ const creditCards: SingleCreditCardData = {
 			"Exclusively for Costco Members"
 		],
 		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+			"Purchase Protection"
+		]
+	},
+	"Costco Anywhere Visa® Business Card by Citi": {
+		"Card Issuer": "Citi",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
+		"Description": "Costco Anywhere Visa® Business Card by Citi",
+		"Annual Fee": 0,
+		"Information URL": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
+		"Rewards": {
+			"Gas Stations": {
+				"Reward Amount": "4%",
+				"Reward Type": "Cash Back",
+				"Limit": "$7,000/year",
+				"Note": "1% Cash Back after $7,000 spent"
+			},
+			"Travel": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "$7,000/year"
+			},
+			"Dining": {
+				"Reward Amount": "3%",
+				"Reward Type": "Cash Back",
+				"Limit": "$7,000/year"
+			},
+			"Costco": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			}
+		},
+		"Requirements": [
+			"Exclusively for Costco Members"
+		],
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
 			"Purchase Protection"
 		]
 	},
 	"Ink Business Preferred® Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Ink Business Preferred® Credit Card",
 		"Annual Fee": 95,
-		"Information Link": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred?CELL=6TKX&jp_cmp=cc/Ink/Exact_SEM/US/NA/NA/NA/Ink_Business_Preferred/Ink_Business_Preferred/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=ink%20business%20preferred&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
+		"Information URL": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
 		"Rewards": {
 			"Travel": {
 				"Reward Amount": "3X",
@@ -555,9 +639,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Ink Business Unlimited® Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Ink Business Unlimited® Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://creditcards.chase.com/business-credit-cards/ink/unlimited?CELL=6TKX&jp_cmp=cc/Ink/Exact_SEM/US/NA/NA/NA/Ink_Business_Unlimited/Ink_Business_Unlimited/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=ink%20business%20unlimited&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
+		"Information URL": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
 		"Rewards": {
 			"Lyft": {
 				"Reward Amount": "5X",
@@ -578,9 +665,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Marriott Bonvoy Boundless® Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Marriott Bonvoy Boundless® Credit Card",
 		"Annual Fee": 95,
-		"Information Link": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless?CELL=6TKX&jp_cmp=cc/Marriott/Exact_SEM/US/NA/NA/NA/Marriott_Bonvoy_Boundless/Marriott_Bonvoy_Boundless/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=marriott%20bonvoy%20boundless&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
+		"Information URL": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
 		"Rewards": {
 			"Marriott": {
 				"Reward Amount": "6X",
@@ -619,14 +709,18 @@ const creditCards: SingleCreditCardData = {
 			"Purchase Protection"
 		],
 		"Notes": [
-			"Get 1 Free Night Award every year after your Card account anniversary. Plus, earn an additional Free Night Award after you spend $60K in purchases on your Card in a calendar year. Awards can be used for one night (redemption level at or under 35,000 Marriott Bonvoy points) at a participating hotel. Certain hotels have resort fees."
+			"Get 1 Free Night Award every year after your Card account anniversary. Plus, earn an additional Free Night Award after you spend $60K in purchases on your Card in a calendar year. \
+			Awards can be used for one night (redemption level at or under 35,000 Marriott Bonvoy points) at a participating hotel. Certain hotels have resort fees."
 		]
 	},
 	"Southwest Rapid Rewards® Priority Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Southwest Rapid Rewards® Priority Credit Card",
 		"Annual Fee": 149,
-		"Information Link": "https://creditcards.chase.com/travel-credit-cards/southwest/priority?CELL=6TKX&jp_cmp=cc/Southwest/Exact_SEM/US/NA/NA/NA/Southwest_Priority/Southwest_Priority/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=southwest%20priority&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
+		"Information URL": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
 		"Rewards": {
 			"Southwest Airlines": {
 				"Reward Amount": "3X",
@@ -661,9 +755,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"The Business Platinum Card® from American Express": {
 		"Card Issuer": "American Express",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "The Business Platinum Card® from American Express",
 		"Annual Fee": 595,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
 		"Rewards": {
 			"Flights Credit": {
 				"Reward Amount": "$200/year",
@@ -733,9 +830,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Discover it® Miles": {
 		"Card Issuer": "Discover",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Discover it® Miles",
 		"Annual Fee": 0,
-		"Information Link": "https://www.discover.com/credit-cards/travel/miles.html",
+		"Information URL": "https://www.discover.com/credit-cards/travel/",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "1.5X",
@@ -749,9 +849,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Discover it® Student Cash Back": {
 		"Card Issuer": "Discover",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Discover it® Student Cash Back",
 		"Annual Fee": 0,
-		"Information Link": "https://www.discover.com/credit-cards/student/it-card.html",
+		"Information URL": "https://www.discover.com/credit-cards/student/it-card.html",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "1%",
@@ -766,9 +869,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Discover it® Cash Back Credit Card": {
 		"Card Issuer": "Discover",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Discover it® Cash Back Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.discover.com/credit-cards/cash-back/it-card.html",
+		"Information URL": "https://www.discover.com/credit-cards/cash-back/it-card.html",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "1%",
@@ -783,9 +889,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Discover it® Secured Credit Card": {
 		"Card Issuer": "Discover",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Discover it® Secured Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.discover.com/credit-cards/secured/",
+		"Information URL": "https://www.discover.com/credit-cards/secured/",
 		"Rewards": {
 			"Gas Stations": {
 				"Reward Amount": "2%",
@@ -810,9 +919,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Southwest Rapid Rewards® Premier Business Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Southwest Rapid Rewards® Premier Business Credit Card",
 		"Annual Fee": 199,
-		"Information Link": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+		"Information URL": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
 		"Rewards": {
 			"Southwest Airlines": {
 				"Reward Amount": "4X",
@@ -857,9 +969,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Apple Card": {
 		"Card Issuer": "Goldman Sachs",
+		"Card Type": "Both",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Apple Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.apple.com/apple-card/",
+		"Information URL": "https://www.apple.com/apple-card/",
 		"Rewards": {
 			"Apple Products and Services": {
 				"Reward Amount": "3%",
@@ -932,9 +1047,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Wells Fargo Active Cash® Card": {
 		"Card Issuer": "Wells Fargo",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Wells Fargo Active Cash® Card",
 		"Annual Fee": 0,
-		"Information Link": "https://creditcards.wellsfargo.com/active-cash-credit-card",
+		"Information URL": "https://creditcards.wellsfargo.com/active-cash-credit-card",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "2%",
@@ -948,9 +1066,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Chase Freedom Rise℠ Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Chase Freedom Rise℠ Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/rise",
+		"Information URL": "https://creditcards.chase.com/cash-back-credit-cards/freedom/rise",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "1.5%",
@@ -964,9 +1085,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Venture X": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Venture X",
 		"Annual Fee": 395,
-		"Information Link": "https://www.capitalone.com/credit-cards/venture-x/",
+		"Information URL": "https://www.capitalone.com/credit-cards/venture-x/",
 		"Rewards": {
 			"Hotels": {
 				"Reward Amount": "10X",
@@ -999,9 +1123,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"World of Hyatt Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "World of Hyatt Credit Card",
 		"Annual Fee": 95,
-		"Information Link": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
+		"Information URL": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
 		"Rewards": {
 			"Hyatt": {
 				"Reward Amount": "4X",
@@ -1046,9 +1173,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Citi Premier® Card": {
 		"Card Issuer": "Citi",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Citi Premier® Card Card",
 		"Annual Fee": 95,
-		"Information Link": "https://www.citi.com/credit-cards/citi-premier-credit-card",
+		"Information URL": "https://www.citi.com/credit-cards/citi-premier-credit-card",
 		"Rewards": {
 			"Citi Travel": {
 				"Reward Amount": "10X",
@@ -1097,9 +1227,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"United℠ Explorer Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "United℠ Explorer Card",
 		"Annual Fee": 0,
-		"Information Link": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+		"Information URL": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
 		"Rewards": {
 			"United Airlines": {
 				"Reward Amount": "2X",
@@ -1138,9 +1271,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Platinum Mastercard® from Capital One": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Platinum Mastercard® from Capital One",
 		"Annual Fee": 0,
-		"Information Link": "https://www.capitalone.com/credit-cards/platinum/",
+		"Information URL": "https://www.capitalone.com/credit-cards/platinum/",
 		"Rewards": {
 		},
 		"Additional Perks": [
@@ -1154,9 +1290,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"QuicksilverOne from Capital One": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "QuicksilverOne from Capital One",
 		"Annual Fee": 39,
-		"Information Link": "https://www.capitalone.com/credit-cards/quicksilverone/",
+		"Information URL": "https://www.capitalone.com/credit-cards/quicksilverone/",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "1.5%",
@@ -1172,9 +1311,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Savor Rewards from Capital One": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Savor Rewards from Capital One",
 		"Annual Fee": 95,
-		"Information Link": "https://www.capitalone.com/credit-cards/savor-dining-rewards/",
+		"Information URL": "https://www.capitalone.com/credit-cards/savor-dining-rewards/",
 		"Rewards": {
 			"Dining": {
 				"Reward Amount": "4%",
@@ -1210,9 +1352,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"SavorOne Rewards from Capital One": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "SavorOne Rewards from Capital One",
 		"Annual Fee": 0,
-		"Information Link": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
+		"Information URL": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
 		"Rewards": {
 			"Dining": {
 				"Reward Amount": "3%",
@@ -1248,9 +1393,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Bank of America® Travel Rewards Credit Card": {
 		"Card Issuer": "Bank of America",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Bank of America® Travel Rewards Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
+		"Information URL": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
 		"Rewards": {
 			"Travel": {
 				"Reward Amount": "1.5X",
@@ -1265,9 +1413,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Bank of America Customized Cash Rewards": {
 		"Card Issuer": "Bank of America",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Bank of America Customized Cash Rewards",
 		"Annual Fee": 0,
-		"Information Link": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+		"Information URL": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
 		"Rewards": {
 			"Variable Spending Category": {
 				"Reward Amount": "3%",
@@ -1296,9 +1447,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Citi Custom Cash® Card": {
 		"Card Issuer": "Citi",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Citi Custom Cash® Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+		"Information URL": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
 		"Rewards": {
 			"Variable Spending Category": {
 				"Reward Amount": "5%",
@@ -1322,9 +1476,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Amex EveryDay® Credit Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Amex EveryDay® Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/amex-everyday/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/amex-everyday/",
 		"Rewards": {
 			"Groceries": {
 				"Reward Amount": "2X",
@@ -1343,9 +1500,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Cash Magnet® Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Cash Magnet® Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "1.5%",
@@ -1359,9 +1519,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Blue Cash Everyday® Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Blue Cash Everyday® Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
 		"Rewards": {
 			"Groceries": {
 				"Reward Amount": "3%",
@@ -1402,9 +1565,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Delta SkyMiles® Gold American Express Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Delta SkyMiles® Gold American Express Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
 		"Rewards": {
 			"Dining": {
 				"Reward Amount": "2X",
@@ -1437,9 +1603,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Delta SkyMiles® Blue American Express Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Delta SkyMiles® Blue American Express Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/",
 		"Rewards": {
 			"Dining": {
 				"Reward Amount": "2X",
@@ -1466,9 +1635,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Delta SkyMiles® Platinum American Express Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Delta Skymiles® Platinum American Express Card",
 		"Annual Fee": 250,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/",
 		"Rewards": {
 			"Delta": {
 				"Reward Amount": "3X",
@@ -1507,9 +1679,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Delta SkyMiles® Reserve American Express Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Delta SkyMiles® Reserve American Express Card",
 		"Annual Fee": 550,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
 		"Rewards": {
 			"Delta": {
 				"Reward Amount": "3X",
@@ -1530,9 +1705,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Delta SkyMiles® Platinum Business Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Delta SkyMiles® Platinum Business Card",
 		"Annual Fee": 250,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-business/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-business/",
 		"Rewards": {
 			"Delta": {
 				"Reward Amount": "3X",
@@ -1559,9 +1737,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Hilton Honors Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Hilton Honors Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
 		"Rewards": {
 			"Hilton": {
 				"Reward Amount": "7X",
@@ -1600,9 +1781,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Hilton Honors American Express Surpass® Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Hilton Honors American Express Surpass® Card",
 		"Annual Fee": 95,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
 		"Rewards": {
 			"Hilton": {
 				"Reward Amount": "12X",
@@ -1642,9 +1826,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Hilton Honors American Express Aspire Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Hilton Honors American Express Aspire Card",
 		"Annual Fee": 450,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
 		"Rewards": {
 			"Hilton": {
 				"Reward Amount": "14X",
@@ -1681,9 +1868,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"American Express® Green Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "American Express® Green Card",
 		"Annual Fee": 150,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/green/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/green/",
 		"Rewards": {
 			"Travel": {
 				"Reward Amount": "3X",
@@ -1735,9 +1925,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Brex Corporate Card for Startups": {
 		"Card Issuer": "Brex",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Brex Corporate Card for Startups",
 		"Annual Fee": 0,
-		"Information Link": "https://brex.com/startups/",
+		"Information URL": "https://brex.com/startups/",
 		"Rewards": {
 			"Ride-Sharing": {
 				"Reward Amount": "7X",
@@ -1776,9 +1969,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Bilt Mastercard®": {
 		"Card Issuer": "Bilt",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Bilt Mastercard®",
 		"Annual Fee": 0,
-		"Information Link": "https://www.bilt.com/credit-card",
+		"Information URL": "https://www.bilt.com/credit-card",
 		"Rewards": {
 			"Dining": {
 				"Reward Amount": "3X",
@@ -1808,9 +2004,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Gemini Credit Card®": {
 		"Card Issuer": "WebBank",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Gemini Credit Card®",
 		"Annual Fee": 0,
-		"Information Link": "https://www.gemini.com/credit-card",
+		"Information URL": "https://www.gemini.com/credit-card",
 		"Rewards": {
 			"Dining": {
 				"Reward Amount": "3%",
@@ -1837,9 +2036,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"X1 Card": {
 		"Card Issuer": "X1",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "X1 Card",
 		"Annual Fee": 0,
-		"Information Link": "https://x1creditcard.com/",
+		"Information URL": "https://x1creditcard.com/",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "2X",
@@ -1854,9 +2056,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Fidelity® Rewards Visa Signature® Credit Card": {
 		"Card Issuer": "Fidelity",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Fidelity® Rewards Visa Signature® Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.fidelity.com/spend-save/visa-signature-card/",
+		"Information URL": "https://www.fidelity.com/spend-save/visa-signature-card/",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "2%",
@@ -1871,9 +2076,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"SoFi Credit Card": {
 		"Card Issuer": "SoFi",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "SoFi Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.sofi.com/credit-card/",
+		"Information URL": "https://www.sofi.com/credit-card/",
 		"Rewards": {
 			"Expedia": {
 				"Reward Amount": "3%",
@@ -1895,9 +2103,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"HSBC Elite Credit Card": {
 		"Card Issuer": "HSBC",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "HSBC Elite Credit Card",
 		"Annual Fee": 395,
-		"Information Link": "https://www.us.hsbc.com/credit-cards/products/elite/",
+		"Information URL": "https://www.us.hsbc.com/credit-cards/products/elite/",
 		"Rewards": {
 			"Travel": {
 				"Reward Amount": "3X",
@@ -1941,9 +2152,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"TD Double Up℠ Credit Card": {
 		"Card Issuer": "TD Bank",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "TD Double Up℠ Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.td.com/us/en/personal-banking/credit-cards/double-up/",
+		"Information URL": "https://www.td.com/us/en/personal-banking/credit-cards/double-up/",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "2%",
@@ -1957,9 +2171,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"TD First Class℠ Visa Signature® Credit Card": {
 		"Card Issuer": "TD Bank",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "TD First Class℠ Visa Signature® Credit Card",
 		"Annual Fee": 89,
-		"Information Link": "https://www.td.com/us/en/personal-banking/credit-cards/first-class-visa-signature/",
+		"Information URL": "https://www.td.com/us/en/personal-banking/credit-cards/first-class-visa-signature/",
 		"Rewards": {
 			"Travel": {
 				"Reward Amount": "3X",
@@ -1996,9 +2213,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Blue Business® Plus Credit Card": {
 		"Card Issuer": "American Express",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Blue Business® Plus Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/blue-business-plus/",
+		"Information URL": "https://www.americanexpress.com/us/credit-cards/card/blue-business-plus/",
 		"Rewards": {
 			"Eligible Business Purchases": {
 				"Reward Amount": "2X",
@@ -2017,9 +2237,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Spark 2% Cash Plus": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Spark 2% Cash Plus",
 		"Annual Fee": 150,
-		"Information Link": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+		"Information URL": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "2%",
@@ -2037,9 +2260,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Spark 1.5% Cash Select": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Spark 1.5% Cash Select",
 		"Annual Fee": 0,
-		"Information Link": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
+		"Information URL": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
 		"Rewards": {
 			"Hotels": {
 				"Reward Amount": "5%",
@@ -2066,9 +2292,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Spark 2X Miles": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Spark 2X Miles",
 		"Annual Fee": 95,
-		"Information Link": "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
+		"Information URL": "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
 		"Rewards": {
 			"Hotels": {
 				"Reward Amount": "5X",
@@ -2098,9 +2327,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Spark 1.5X Miles Select": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Spark 1.5X Miles Select",
 		"Annual Fee": 0,
-		"Information Link": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
+		"Information URL": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
 		"Rewards": {
 			"Hotels": {
 				"Reward Amount": "5X",
@@ -2127,9 +2359,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Venture X Business": {
 		"Card Issuer": "Capital One",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Venture X Business",
 		"Annual Fee": 0,
-		"Information Link": "https://www.capitalone.com/small-business/credit-cards/venture-x/",
+		"Information URL": "https://www.capitalone.com/small-business/credit-cards/venture-x/",
 		"Rewards": {
 			"Everything Else": {
 				"Reward Amount": "2X",
@@ -2145,9 +2380,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Ink Business Cash® Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Ink Business Cash® Credit Card",
 		"Annual Fee": 0,
-		"Information Link": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+		"Information URL": "https://creditcards.chase.com/business-credit-cards/ink/cash",
 		"Rewards": {
 			"Internet, Cable, and Phone Services": {
 				"Reward Amount": "5%",
@@ -2183,9 +2421,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"IHG One Rewards Premier Credit Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "IHG One Rewards Premier Credit Card",
 		"Annual Fee": 99,
-		"Information Link": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+		"Information URL": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
 		"Rewards": {
 			"IHG® Hotels and Resorts": {
 				"Reward Amount": "10X",
@@ -2227,9 +2468,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"United℠ Business Card": {
 		"Card Issuer": "Chase",
+		"Card Type": "Business",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "United℠ Business Card",
 		"Annual Fee": 99,
-		"Information Link": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+		"Information URL": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
 		"Rewards": {
 			"United Airlines": {
 				"Reward Amount": "2X",
@@ -2265,9 +2509,12 @@ const creditCards: SingleCreditCardData = {
 	},
 	"Wyndham Rewards Earner® Plus Card": {
 		"Card Issuer": "Barclays",
+		"Card Type": "Personal",
+		"Last Updated": "10/01/2023",
+		"Image URL": "",
 		"Description": "Wyndham Rewards Earner Plus Card",
 		"Annual Fee": 75,
-		"Information Link": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+		"Information URL": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
 		"Rewards": {
 			"Wyndham": {
 				"Reward Amount": "6X",
