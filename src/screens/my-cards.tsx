@@ -14,17 +14,15 @@ export default function MyCards () {
 		navigation.navigate("AddNewCard")
 	}
 
-
-
 	return (
-		<View style={ContainerStyles.container}>
-			<View style={{ position: "absolute", top: 30, left: 20 }}>
-				<Text style={{ fontWeight: "bold", fontSize: 30 }}>My Cards</Text>
+		<View style = {ContainerStyles.container}>
+			<View style = {{ position: "absolute", top: 30, left: 20 }}>
+				<Text style = {{ fontWeight: "bold", fontSize: 30 }}>My Cards</Text>
 			</View>
 
 			<FlatList
 				data = {creditCardsList}
-				renderItem = {({ item}) => (
+				renderItem = {({ item }) => (
 					<MyCardsCard
 						cardData = {item}
 						style = {{
@@ -33,6 +31,7 @@ export default function MyCards () {
 							borderRadius: 10,
 							marginTop:10,
 						}}
+						onPress = {() => navigation.navigate("CardDetails", { cardData: item.name })}
 					/>
 				)}
 			/>

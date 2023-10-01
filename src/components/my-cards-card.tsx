@@ -1,4 +1,4 @@
-import { View, Image } from "react-native"
+import { View, Image, Pressable } from "react-native"
 
 interface Props {
 	cardData: {
@@ -7,6 +7,7 @@ interface Props {
 		rewards: string
 	}
 	style: object
+	onPress: () => void
 }
 
 export default function MyCardsCard(props: Props) {
@@ -14,7 +15,12 @@ export default function MyCardsCard(props: Props) {
 
 	return (
 		<View style = {style}>
-			<Image style = {{ height: 150, width: 250, borderRadius: 7 }} source = {{ uri: cardData.image_url }} />
+			<Pressable onPress = {props.onPress}>
+				<Image
+					style = {{ height: 150, width: 250, borderRadius: 7 }}
+					source = {{ uri: cardData.image_url }}
+				/>
+			</Pressable>
 		</View>
 	)
 }

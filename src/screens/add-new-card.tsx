@@ -16,9 +16,7 @@ export default function AddNewCard() {
 
 	const navigation = useNavigation<StackNavigationProp<RootStackParamList, "AddNewCard">>()
 
-
 	const handleIssuerChange = (selectedIssuer: string) => {
-		console.log("selectedIssuer", selectedIssuer)
 		setIssuer(selectedIssuer)
 		setShowCardDropdown(true)
 	}

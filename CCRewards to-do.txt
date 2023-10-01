@@ -6,6 +6,7 @@ Plan:
 
 To-do:
 1. Remove all Spending categories with 'Credit' in the name
+2. Add image URLs to each card
 
 Bugs:
 
