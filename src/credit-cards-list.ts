@@ -32,13 +32,13 @@ const creditCardsList: CardData[] = [
 		"credit_limit":2000,
 	},
 	{
-		"name": "Chase Sapphire Reserve®",
+		"name": "Chase Sapphire Reserve® Credit Card®",
 		"rewards": "3x points on dining, 3x points on travel, 1x points on other purchases, and various travel benefits.",
 		"image_url": "https://www.forbes.com/advisor/wp-content/uploads/2019/08/chase-sapphire-reserve.png",
 		"credit_limit":2000,
 	},
 	{
-		"name": "Chase Freedom Flex Credit Card®",
+		"name": "Chase Freedom Flex℠ Credit Card®",
 		"rewards": "5% cashback on rotating categories, 1% on all other purchases.",
 		"image_url": "https://creditcards.chase.com/K-Marketplace/images/cardart/freedom_flex_card_alt.png",
 		"credit_limit":2000,

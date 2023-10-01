@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 const creditCards: SingleCreditCardData = {
-	"Amazon Prime Rewards Visa Signature": {
+	"Amazon Rewards Visa Signature": {
 		"Card Issuer": "Chase",
-		"Description": "Amazon Prime Rewards Visa Signature Card",
+		"Description": "Amazon Rewards Visa Signature Card",
 		"Annual Fee": 0,
 		"Information Link": "https://www.amazon.com/Prime-Visa/dp/BT00LN946S",
 		"Rewards": {
@@ -51,10 +51,60 @@ const creditCards: SingleCreditCardData = {
 				"Reward Type": "Cash Back",
 				"Limit": "Unlimited"
 			},
+		}
+	},
+	"Amazon Prime Rewards Visa Signature": {
+		"Card Issuer": "Chase",
+		"Description": "Amazon Prime Rewards Visa Signature Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.amazon.com/Prime-Visa/dp/BT00LN946S",
+		"Rewards": {
+			"Amazon": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Amazon Fresh": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Whole Foods Market": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Chase Travel": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Gas Stations": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Dining": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Public Transit": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Ride-Sharing": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited"
+			},
 		},
-		"Notes": [
-			"Get 5% cash back at Amazon.com, Amazon Fresh, Whole Foods Market, and Chase Travel with an eligible Prime membership"
-		]
 	},
 	"Amazon Prime Store Card": {
 		"Card Issuer": "Synchrony",
@@ -69,7 +119,7 @@ const creditCards: SingleCreditCardData = {
 			},
 		},
 		"Requirements": [
-			"Must be an Amazon Prime member to get this card"
+			"Must be an Amazon Prime member to get rewards"
 		]
 	},
 	"American Express® Gold Card": {
@@ -119,7 +169,7 @@ const creditCards: SingleCreditCardData = {
 		"Annual Fee": 695,
 		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/platinum/?eep=25330&linknav=US-Acq-Shop-Consumer-PDP-AEDP-Prospect-click-filmstrip:platinum-card",
 		"Rewards": {
-			"CLEAR Plus Credit": {
+			"CLEAR Plus": {
 				"Reward Amount": "$189/year",
 				"Reward Type": "Other Credits",
 				"Limit": "$189/year",
@@ -244,9 +294,9 @@ const creditCards: SingleCreditCardData = {
 			"$250 Statement Credit: Earn a $250 statement credit after you spend $1,000 in purchases on your new Card within the first 3 months."
 		]
 	},
-	"Chase Freedom Flex Credit Card": {
+	"Chase Freedom Flex℠ Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Chase Freedom Flex Credit Card",
+		"Description": "Chase Freedom Flex℠ Credit Card",
 		"Annual Fee": 0,
 		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
 		"Rewards": {
@@ -360,9 +410,9 @@ const creditCards: SingleCreditCardData = {
 			"Get 25% more value when you redeem for airfare, hotels, car rentals and cruises through Chase Ultimate Rewards. For example, 60,000 points are worth $750 toward travel"
 		]
 	},
-	"Chase Sapphire Reserve": {
+	"Chase Sapphire Reserve® Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Chase Sapphire Reserve",
+		"Description": "Chase Sapphire Reserve® Credit Card",
 		"Annual Fee": 550,
 		"Information Link": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve?CELL=6TKX&jp_cmp=cc/Sapphire/Exact_SEM/US/NA/NA/NA/Chase_Sapphire_Reserve/Chase_Sapphire_Reserve/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=chase%20sapphire%20reserve&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
 		"Rewards": {
@@ -416,9 +466,9 @@ const creditCards: SingleCreditCardData = {
 			"1% cash back on purchases + 1% cash back when you pay for those purchases"
 		]
 	},
-	"Costco Anywhere Visa": {
+	"Costco Anywhere Visa® Card by Citi": {
 		"Card Issuer": "Citi",
-		"Description": "Costco Anywhere Visa",
+		"Description": "Costco Anywhere Visa® Card by Citi",
 		"Annual Fee": 0,
 		"Information Link": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
 		"Rewards": {
@@ -456,9 +506,9 @@ const creditCards: SingleCreditCardData = {
 			"Purchase Protection"
 		]
 	},
-	"Ink Business Preferred Credit Card": {
+	"Ink Business Preferred® Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Ink Business Preferred Credit Card",
+		"Description": "Ink Business Preferred® Credit Card",
 		"Annual Fee": 95,
 		"Information Link": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred?CELL=6TKX&jp_cmp=cc/Ink/Exact_SEM/US/NA/NA/NA/Ink_Business_Preferred/Ink_Business_Preferred/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=ink%20business%20preferred&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
 		"Rewards": {
@@ -503,9 +553,9 @@ const creditCards: SingleCreditCardData = {
 			"Get 25% more value when you redeem for airfare, hotels, car rentals and cruises through Chase Ultimate Rewards. For example, 60,000 points are worth $750 toward travel"
 		]
 	},
-	"Ink Business Unlimited Credit Card": {
+	"Ink Business Unlimited® Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Ink Business Unlimited Credit Card",
+		"Description": "Ink Business Unlimited® Credit Card",
 		"Annual Fee": 0,
 		"Information Link": "https://creditcards.chase.com/business-credit-cards/ink/unlimited?CELL=6TKX&jp_cmp=cc/Ink/Exact_SEM/US/NA/NA/NA/Ink_Business_Unlimited/Ink_Business_Unlimited/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=ink%20business%20unlimited&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
 		"Rewards": {
@@ -526,9 +576,9 @@ const creditCards: SingleCreditCardData = {
 			"Foreign Transaction Fee Waivers"
 		]
 	},
-	"Marriott Bonvoy Boundless": {
+	"Marriott Bonvoy Boundless® Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Marriott Bonvoy Boundless",
+		"Description": "Marriott Bonvoy Boundless® Credit Card",
 		"Annual Fee": 95,
 		"Information Link": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless?CELL=6TKX&jp_cmp=cc/Marriott/Exact_SEM/US/NA/NA/NA/Marriott_Bonvoy_Boundless/Marriott_Bonvoy_Boundless/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=marriott%20bonvoy%20boundless&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
 		"Rewards": {
@@ -538,9 +588,9 @@ const creditCards: SingleCreditCardData = {
 				"Limit": "Unlimited",
 				"Note": "\
 					Earn up to 17X total Bonvoy points per $1 spent at over 7,000 hotels participating in Marriott Bonvoy™:\
-					Earn 6X points for every $1 spent at over 7,000 hotels participating in Marriott Bonvoy® with the Marriott Bonvoy Boundless® credit card.*Same page link to Offer Details\
+					Earn 6X points for every $1 spent at over 7,000 hotels participating in Marriott Bonvoy® with the Marriott Bonvoy Boundless® Credit Card.\
 					Plus, earn up to 10X points from Marriott for being a Marriott Bonvoy® member.*Same page link to Offer Details\
-					Plus, earn up to 1X point from Marriott with Silver Elite Status, a benefit of being a Marriott Bonvoy Boundless cardmember\
+					Plus, earn up to 1X point from Marriott with Silver Elite Status, a benefit of being a Marriott Bonvoy Boundless® cardmember\
 				"
 			},
 			"Groceries": {
@@ -572,9 +622,9 @@ const creditCards: SingleCreditCardData = {
 			"Get 1 Free Night Award every year after your Card account anniversary. Plus, earn an additional Free Night Award after you spend $60K in purchases on your Card in a calendar year. Awards can be used for one night (redemption level at or under 35,000 Marriott Bonvoy points) at a participating hotel. Certain hotels have resort fees."
 		]
 	},
-	"Southwest Priority": {
+	"Southwest Rapid Rewards® Priority Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Southwest Priority",
+		"Description": "Southwest Rapid Rewards® Priority Credit Card",
 		"Annual Fee": 149,
 		"Information Link": "https://creditcards.chase.com/travel-credit-cards/southwest/priority?CELL=6TKX&jp_cmp=cc/Southwest/Exact_SEM/US/NA/NA/NA/Southwest_Priority/Southwest_Priority/na&MSC=IQDZGK5T1R&jp_aid=na&jp_adgid=80776317320&jp_sid=na&jp_nad=na&jp_nm=southwest%20priority&jp_mt=p&jp_plcmnt=&jp_creative=416136251109&jp_d=google&jp_s=g&jp_cn=136251109&JPMORGAN=6TKX",
 		"Rewards": {
@@ -609,9 +659,9 @@ const creditCards: SingleCreditCardData = {
 			"7,500 bonus points after your Cardmember anniversary each year"
 		]
 	},
-	"The Business Platinum Card from American Express": {
+	"The Business Platinum Card® from American Express": {
 		"Card Issuer": "American Express",
-		"Description": "The Business Platinum Card from American Express",
+		"Description": "The Business Platinum Card® from American Express",
 		"Annual Fee": 595,
 		"Information Link": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
 		"Rewards": {
@@ -659,7 +709,7 @@ const creditCards: SingleCreditCardData = {
 				"Limit": "$2,000,000",
 				"Note": "Earn 1.5X points in key business categories and on eligible purchases of $5K or more everywhere else. "
 			},
-			"CLEAR Plus Credit": {
+			"CLEAR Plus": {
 				"Reward Amount": "$189/year",
 				"Reward Type": "Other Credits",
 				"Limit": "$189/year",
@@ -681,9 +731,9 @@ const creditCards: SingleCreditCardData = {
 			"Get 50% more Membership Rewards® points. That's 1.5 points per dollar, on each eligible purchase of $5,000 or more. You can get up to 1 million additional points per year."
 		]
 	},
-	"Discover it Miles": {
+	"Discover it® Miles": {
 		"Card Issuer": "Discover",
-		"Description": "Discover it Miles",
+		"Description": "Discover it® Miles",
 		"Annual Fee": 0,
 		"Information Link": "https://www.discover.com/credit-cards/travel/miles.html",
 		"Rewards": {
@@ -697,9 +747,9 @@ const creditCards: SingleCreditCardData = {
 			"Discover will automatically match all the Miles you've earned at the end of your first year."
 		]
 	},
-	"Discover it Student Cash Back": {
+	"Discover it® Student Cash Back": {
 		"Card Issuer": "Discover",
-		"Description": "Discover it Student Cash Back",
+		"Description": "Discover it® Student Cash Back",
 		"Annual Fee": 0,
 		"Information Link": "https://www.discover.com/credit-cards/student/it-card.html",
 		"Rewards": {
@@ -714,9 +764,9 @@ const creditCards: SingleCreditCardData = {
 			"Discover will automatically match all the cash back you've earned at the end of your first year."
 		]
 	},
-	"Discover it Cash Back": {
+	"Discover it® Cash Back Credit Card": {
 		"Card Issuer": "Discover",
-		"Description": "Discover it Cash Back",
+		"Description": "Discover it® Cash Back Credit Card",
 		"Annual Fee": 0,
 		"Information Link": "https://www.discover.com/credit-cards/cash-back/it-card.html",
 		"Rewards": {
@@ -731,9 +781,9 @@ const creditCards: SingleCreditCardData = {
 			"Discover will automatically match all the cash back you've earned at the end of your first year."
 		]
 	},
-	"Discover it Secured Credit Card": {
+	"Discover it® Secured Credit Card": {
 		"Card Issuer": "Discover",
-		"Description": "Discover it Secured Credit Card",
+		"Description": "Discover it® Secured Credit Card",
 		"Annual Fee": 0,
 		"Information Link": "https://www.discover.com/credit-cards/secured/",
 		"Rewards": {
@@ -758,9 +808,9 @@ const creditCards: SingleCreditCardData = {
 			"Discover will automatically match all the cash back you've earned at the end of your first year."
 		]
 	},
-	"Southwest Rapid Rewards Premier Business Credit Card": {
+	"Southwest Rapid Rewards® Premier Business Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Southwest Rapid Rewards Premier Business Credit Card",
+		"Description": "Southwest Rapid Rewards® Premier Business Credit Card",
 		"Annual Fee": 199,
 		"Information Link": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
 		"Rewards": {
@@ -880,9 +930,9 @@ const creditCards: SingleCreditCardData = {
 			"Get 3% Daily Cash back on purchases from Apple when you use Apple Card"
 		]
 	},
-	"Wells Fargo Active Cash Card": {
+	"Wells Fargo Active Cash® Card": {
 		"Card Issuer": "Wells Fargo",
-		"Description": "Wells Fargo Active Cash Card",
+		"Description": "Wells Fargo Active Cash® Card",
 		"Annual Fee": 0,
 		"Information Link": "https://creditcards.wellsfargo.com/active-cash-credit-card",
 		"Rewards": {
@@ -896,9 +946,9 @@ const creditCards: SingleCreditCardData = {
 			"Get 2% cash rewards on purchases"
 		]
 	},
-	"Chase Freedom Rise": {
+	"Chase Freedom Rise℠ Credit Card": {
 		"Card Issuer": "Chase",
-		"Description": "Chase Freedom Rise",
+		"Description": "Chase Freedom Rise℠ Credit Card",
 		"Annual Fee": 0,
 		"Information Link": "https://creditcards.chase.com/cash-back-credit-cards/freedom/rise",
 		"Rewards": {
@@ -912,9 +962,9 @@ const creditCards: SingleCreditCardData = {
 			"Purchase Protection"
 		]
 	},
-	"Capital One Venture X": {
+	"Venture X": {
 		"Card Issuer": "Capital One",
-		"Description": "Capital One Venture X",
+		"Description": "Venture X",
 		"Annual Fee": 395,
 		"Information Link": "https://www.capitalone.com/credit-cards/venture-x/",
 		"Rewards": {
@@ -994,9 +1044,9 @@ const creditCards: SingleCreditCardData = {
 			"1 free night at any Category 1-4 Hyatt hotel or resort every year after your cardmember anniversary"
 		]
 	},
-	"Citi Premier": {
+	"Citi Premier® Card": {
 		"Card Issuer": "Citi",
-		"Description": "Citi Premier Card",
+		"Description": "Citi Premier® Card Card",
 		"Annual Fee": 95,
 		"Information Link": "https://www.citi.com/credit-cards/citi-premier-credit-card",
 		"Rewards": {
@@ -1045,9 +1095,9 @@ const creditCards: SingleCreditCardData = {
 			"Purchase Protection"
 		]
 	},
-	"United Explorer Card": {
+	"United℠ Explorer Card": {
 		"Card Issuer": "Chase",
-		"Description": "United Explorer Card",
+		"Description": "United℠ Explorer Card",
 		"Annual Fee": 0,
 		"Information Link": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
 		"Rewards": {
@@ -1086,9 +1136,9 @@ const creditCards: SingleCreditCardData = {
 			"Foreign Transaction Fee Waivers"
 		]
 	},
-	"Capital One Platinum Credit Card": {
+	"Platinum Mastercard® from Capital One": {
 		"Card Issuer": "Capital One",
-		"Description": "Capital One Platinum Credit Card",
+		"Description": "Platinum Mastercard® from Capital One",
 		"Annual Fee": 0,
 		"Information Link": "https://www.capitalone.com/credit-cards/platinum/",
 		"Rewards": {
@@ -1102,9 +1152,9 @@ const creditCards: SingleCreditCardData = {
 			"The Capital One Platinum card does not offer any rewards, such as cash back, travel miles, or points. This is because the card is designed to help consumers build or rebuild credit"
 		]
 	},
-	"Capital One QuicksilverOne Cash Rewards": {
+	"QuicksilverOne from Capital One": {
 		"Card Issuer": "Capital One",
-		"Description": "Capital One QuicksilverOne Cash Rewards",
+		"Description": "QuicksilverOne from Capital One",
 		"Annual Fee": 39,
 		"Information Link": "https://www.capitalone.com/credit-cards/quicksilverone/",
 		"Rewards": {
@@ -1120,9 +1170,9 @@ const creditCards: SingleCreditCardData = {
 			"Foreign Transaction Fee Waivers"
 		]
 	},
-	"Capital One Savor": {
+	"Savor Rewards from Capital One": {
 		"Card Issuer": "Capital One",
-		"Description": "Capital One Savor",
+		"Description": "Savor Rewards from Capital One",
 		"Annual Fee": 95,
 		"Information Link": "https://www.capitalone.com/credit-cards/savor-dining-rewards/",
 		"Rewards": {
@@ -1158,9 +1208,9 @@ const creditCards: SingleCreditCardData = {
 			"Foreign Transaction Fee Waivers"
 		]
 	},
-	"Capital One SavorOne": {
+	"SavorOne Rewards from Capital One": {
 		"Card Issuer": "Capital One",
-		"Description": "Capital One SavorOne",
+		"Description": "SavorOne Rewards from Capital One",
 		"Annual Fee": 0,
 		"Information Link": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
 		"Rewards": {
@@ -1196,9 +1246,9 @@ const creditCards: SingleCreditCardData = {
 			"Foreign Transaction Fee Waivers"
 		]
 	},
-	"Bank of America Travel Rewards": {
+	"Bank of America® Travel Rewards Credit Card": {
 		"Card Issuer": "Bank of America",
-		"Description": "Bank of America Travel Rewards",
+		"Description": "Bank of America® Travel Rewards Credit Card",
 		"Annual Fee": 0,
 		"Information Link": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
 		"Rewards": {
@@ -1318,7 +1368,7 @@ const creditCards: SingleCreditCardData = {
 				"Reward Type": "Cash Back",
 				"Limit": "$6,000/year"
 			},
-			"U.S. Online Retail Purhchases": {
+			"U.S. Online Retail Purchases": {
 				"Reward Amount": "3%",
 				"Reward Type": "Cash Back",
 				"Limit": "Unlimited"
@@ -1665,7 +1715,7 @@ const creditCards: SingleCreditCardData = {
 				"Limit": "$25,000/year",
 				"Note": "3X Points including trains, taxicabs, rideshare services, ferries, tolls, parking, buses, and subways."
 			},
-			"CLEAR Plus Credit": {
+			"CLEAR Plus": {
 				"Reward Amount": "$189/year",
 				"Reward Type": "Other Credits",
 				"Limit": "$189/year",
@@ -1752,11 +1802,12 @@ const creditCards: SingleCreditCardData = {
 			},
 		},
 		"Notes": [
-			"Use the card 5 times each statement period to earn points."
+			"Use the card 5 times each statement period to earn points.",
+			"Earn Double Points when you use your Bilt Card to make non-rent purhcases on Bilt Rent Days."
 		]
 	},
 	"Gemini Credit Card®": {
-		"Card Issuer": "Gemini",
+		"Card Issuer": "WebBank",
 		"Description": "Gemini Credit Card®",
 		"Annual Fee": 0,
 		"Information Link": "https://www.gemini.com/credit-card",
@@ -1841,6 +1892,416 @@ const creditCards: SingleCreditCardData = {
 			"Foreign Transaction Fee Waivers",
 			"Cell Phone Protection"
 		]
+	},
+	"HSBC Elite Credit Card": {
+		"Card Issuer": "HSBC",
+		"Description": "HSBC Elite Credit Card",
+		"Annual Fee": 395,
+		"Information Link": "https://www.us.hsbc.com/credit-cards/products/elite/",
+		"Rewards": {
+			"Travel": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Flights": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Hotels": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Car Rentals": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Dining": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Lounge Access",
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		],
+		"Notes": [
+			"Up to $400 per year for all airfare, hotels and car rentals booked through HSBC Travel"
+		]
+	},
+	"TD Double Up℠ Credit Card": {
+		"Card Issuer": "TD Bank",
+		"Description": "TD Double Up℠ Credit Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.td.com/us/en/personal-banking/credit-cards/double-up/",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+		]
+	},
+	"TD First Class℠ Visa Signature® Credit Card": {
+		"Card Issuer": "TD Bank",
+		"Description": "TD First Class℠ Visa Signature® Credit Card",
+		"Annual Fee": 89,
+		"Information Link": "https://www.td.com/us/en/personal-banking/credit-cards/first-class-visa-signature/",
+		"Rewards": {
+			"Travel": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Flights": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Hotels": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Car Rentals": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+		],
+		"Notes": [
+			"Annual Fee Waived the first year"
+		]
+	},
+	"Blue Business® Plus Credit Card": {
+		"Card Issuer": "American Express",
+		"Description": "Blue Business® Plus Credit Card",
+		"Annual Fee": 0,
+		"Information Link": "https://www.americanexpress.com/us/credit-cards/card/blue-business-plus/",
+		"Rewards": {
+			"Eligible Business Purchases": {
+				"Reward Amount": "2X",
+				"Reward Type": "Points",
+				"Limit": "$50,000/year",
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+		]
+	},
+	"Spark 2% Cash Plus": {
+		"Card Issuer": "Capital One",
+		"Description": "Spark 2% Cash Plus",
+		"Annual Fee": 150,
+		"Information Link": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		],
+		"Notes": [
+			"Get your $150 annual fee refunded every year you spend at least $150,000"
+		]
+	},
+	"Spark 1.5% Cash Select": {
+		"Card Issuer": "Capital One",
+		"Description": "Spark 1.5% Cash Select",
+		"Annual Fee": 0,
+		"Information Link": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
+		"Rewards": {
+			"Hotels": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited",
+				"Note": "5% cash back on hotels booked through Capital One Travel"
+			},
+			"Car Rentals": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited",
+				"Note": "5% cash back on rental cars booked through Capital One Travel"
+			},
+			"Everything Else": {
+				"Reward Amount": "1.5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Spark 2X Miles": {
+		"Card Issuer": "Capital One",
+		"Description": "Spark 2X Miles",
+		"Annual Fee": 95,
+		"Information Link": "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
+		"Rewards": {
+			"Hotels": {
+				"Reward Amount": "5X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "5X Miles on hotels booked through Capital One Travel"
+			},
+			"Car Rentals": {
+				"Reward Amount": "5X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "5X Miles on rental cars booked through Capital One Travel"
+			},
+			"Everything Else": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		],
+		"Notes": [
+			"Annual Fee Waived the first year"
+		]
+	},
+	"Spark 1.5X Miles Select": {
+		"Card Issuer": "Capital One",
+		"Description": "Spark 1.5X Miles Select",
+		"Annual Fee": 0,
+		"Information Link": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
+		"Rewards": {
+			"Hotels": {
+				"Reward Amount": "5X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "5X Miles on hotels booked through Capital One Travel"
+			},
+			"Car Rentals": {
+				"Reward Amount": "5X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "5X Miles on rental cars booked through Capital One Travel"
+			},
+			"Everything Else": {
+				"Reward Amount": "1.5X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers"
+		]
+	},
+	"Venture X Business": {
+		"Card Issuer": "Capital One",
+		"Description": "Venture X Business",
+		"Annual Fee": 0,
+		"Information Link": "https://www.capitalone.com/small-business/credit-cards/venture-x/",
+		"Rewards": {
+			"Everything Else": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers",
+			"Lounge Access"
+		]
+	},
+	"Ink Business Cash® Credit Card": {
+		"Card Issuer": "Chase",
+		"Description": "Ink Business Cash® Credit Card",
+		"Annual Fee": 0,
+		"Information Link": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+		"Rewards": {
+			"Internet, Cable, and Phone Services": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "$25,000/year",
+			},
+			"Office Supplies": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "$25,000/year",
+			},
+			"Lyft": {
+				"Reward Amount": "5%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited",
+			},
+			"Dining": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "$25,000/year",
+			},
+			"Gas Stations": {
+				"Reward Amount": "2%",
+				"Reward Type": "Cash Back",
+				"Limit": "$25,000/year",
+			},
+			"Everything Else": {
+				"Reward Amount": "1%",
+				"Reward Type": "Cash Back",
+				"Limit": "Unlimited",
+			},
+		},
+	},
+	"IHG One Rewards Premier Credit Card": {
+		"Card Issuer": "Chase",
+		"Description": "IHG One Rewards Premier Credit Card",
+		"Annual Fee": 99,
+		"Information Link": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+		"Rewards": {
+			"IHG® Hotels and Resorts": {
+				"Reward Amount": "10X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "Earn up to 26X points at IHG® Hotels and Resorts.\
+					That's 10X points with this card.\
+					Plus up to 10X points from IHG® for being an IHG One Rewards member.\
+					Plus up to 6X points from IHG® with Platinum Elite Status, a benefit of this card.\
+				"
+			},
+			"Travel": {
+				"Reward Amount": "5X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Dining": {
+				"Reward Amount": "5X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+			"Gas Stations": {
+				"Reward Amount": "5X",
+				"Reward Type": "Points",
+				"Limit": "$50,000/year",
+			},
+			"Everything Else": {
+				"Reward Amount": "3X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Lounge Access",
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers",
+			"Cell Phone Protection"
+		]
+	},
+	"United℠ Business Card": {
+		"Card Issuer": "Chase",
+		"Description": "United℠ Business Card",
+		"Annual Fee": 99,
+		"Information Link": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+		"Rewards": {
+			"United Airlines": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+				"Note": "2 miles per $1 spent on purchases from United® including tickets, Economy Plus®, Inflight food, beverages, Wi-Fi and other United charges."
+			},
+			"Gas Stations": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "$25,000/year",
+			},
+			"Office Supplies": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "$25,000/year",
+			},
+			"Public Transit": {
+				"Reward Amount": "2X",
+				"Reward Type": "Miles",
+				"Limit": "$25,000/year",
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Miles",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Purchase Protection",
+			"Foreign Transaction Fee Waivers",
+		]
+	},
+	"Wyndham Rewards Earner® Plus Card": {
+		"Card Issuer": "Barclays",
+		"Description": "Wyndham Rewards Earner Plus Card",
+		"Annual Fee": 75,
+		"Information Link": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+		"Rewards": {
+			"Wyndham": {
+				"Reward Amount": "6X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "6X points on eligible purchases made at Hotels By Wyndham."
+			},
+			"Gas Stations": {
+				"Reward Amount": "6X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "6X points on eligible purchases made at qualifying gas stations."
+			},
+			"Dining": {
+				"Reward Amount": "4X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "4X points on purchases made on eligible dining."
+			},
+			"Groceries": {
+				"Reward Amount": "4X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+				"Note": "Excludes Target® and Walmart®."
+			},
+			"Everything Else": {
+				"Reward Amount": "1X",
+				"Reward Type": "Points",
+				"Limit": "Unlimited",
+			},
+		},
+		"Additional Perks": [
+			"Foreign Transaction Fee Waivers",
+		],
 	},
 }
 

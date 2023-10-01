@@ -5,9 +5,8 @@ Plan:
 - Hold user cards in async storage
 
 To-do:
-1. Remove all Spending categories with 'Credit' in the name
-2. Add copyright and trademark symbols to the cards everywhere
-3. Delete all unused credit issuers
+1. Add a consumer or business atribute to each credit card item
+3. add a last-updated attribute to each credit card
 
 Bugs:
 
