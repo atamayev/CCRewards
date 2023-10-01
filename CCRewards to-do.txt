@@ -5,8 +5,10 @@ Plan:
 - Hold user cards in async storage
 
 To-do:
-3. Add picture links to each card
-4. Fill in better descriptions for each of the cards
+-If the app is to be able to run locally, all the images will have to be downloaded and stored locally
+- find which cards offer expense reports
+-add these business cards:
+https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/?inav=footer_cards_bus_crdt_crd
 
 Bugs:
 

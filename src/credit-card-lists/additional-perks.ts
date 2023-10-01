@@ -3,6 +3,7 @@ const additionalPerks = {
 	"Cell Phone Protection": "Coverage for your cell phone against damage or theft.",
 	"Cryptocurrency Rewards": "Earn rewards in the form of cryptocurrency.",
 	"Entertainment Access": "Get special access to events, concerts, or movie tickets.",
+	"Expense Reports": "Create expense reports for your business.",
 	"Foreign Transaction Fee Waivers": "No foreign transaction fees when using the card abroad.",
 	"Get a $60 Amazon Gift Card": "Get a $60 Amazon Gift Card instantly upon approval.",
 	"Insurance Benefits": "Various types of insurance like travel, car rental, etc.",

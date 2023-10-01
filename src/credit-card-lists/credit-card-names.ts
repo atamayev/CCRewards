@@ -1,6 +1,6 @@
 const creditCardNames = [
 	"Amazon Prime Rewards Visa Signature",
-	"Amazon Prime Store Card",
+	"Amazon Store Card",
 	"Amazon Rewards Visa Signature",
 	"American Express® Green Card",
 	"American Express® Gold Card",
