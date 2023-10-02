@@ -1,31 +1,22 @@
 const creditCardIssuers = [
 	"American Express",
-	"Banorte USA",
-	"Banco Popular",
+	"Bank of America",
 	"Barclays",
-	"Bank Of America",
+	"Bilt",
 	"Brex",
 	"Capital One",
-	"Celtic Bank",
 	"Chase",
 	"Citi",
-	"Continental Finance",
-	"Credit One",
-	"Deserve",
 	"Discover",
 	"Fidelity",
-	"First Access",
-	"First Progress",
-	"Genesis FS Card Services",
+	"Goldman Sachs",
 	"HSBC",
-	"Merrick Bank",
-	"PenFed",
-	"Petal",
+	"SoFi",
 	"Synchrony",
 	"TD Bank",
-	"The Bank of Missouri",
-	"U.S. Bank",
-	"Wells Fargo"
+	"WebBank",
+	"Wells Fargo",
+	"X1"
 ] as const
 
 export default creditCardIssuers

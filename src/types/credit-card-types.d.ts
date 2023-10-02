@@ -10,6 +10,8 @@ declare global {
 	type CreditCardNames = typeof creditCardNames[number]
 	type CreditCardSpendingCategories = typeof creditCardSpendingCategories[number]
 	type CreditCardRewardTypes = keyof typeof creditCardRewardTypes
+	type CreditCardType = "Personal" | "Business" | "Both"
+	type MMDDYYYYDate = `${number}/${number}/${number}`
 
 	interface RewardDetails {
 		"Reward Amount": string
@@ -18,27 +20,23 @@ declare global {
 		"Note"?: string
 	}
 
-	interface CreditCardDetails {
+	interface SingleCreditCardDetails {
 		"Card Issuer": CreditCardIssuers
+		"Card Type": CreditCardType
+		"Last Updated": MMDDYYYYDate
 		"Description": string
 		"Annual Fee": number
 		"Rewards": {
 			[key in CreditCardSpendingCategories]?: RewardDetails
 		}
+		"Information URL": string
+		"Image URL": string
 		"Additional Perks"?: AdditionalPerks[]
-		"Information Link": string
 		"Notes"?: string[]
 		"Requirements"?: string[]
 	}
 
-	// After finishing the credit card list, change the type of creditCards to
-		// type SingleCreditCardData = Record<CreditCardNames, CreditCardDetails:
-	// The reason the other type is being used is because when using Record, all of the CreditCardNames must be listed.
-	// Because the credit card list is not finished, this is not possible, yet.
-	type SingleCreditCardData = {
-		[key in CreditCardNames]?: CreditCardDetails
-	}
-
+	type CreditCardData = Record<CreditCardNames, SingleCreditCardDetails>
 }
 
 export {}

@@ -5,8 +5,11 @@ Plan:
 - Hold user cards in async storage
 
 To-do:
-1. Remove all Spending categories with 'Credit' in the name
-2. Add image URLs to each card
+-If the app is to be able to run locally, all the images will have to be downloaded and stored locally
+- find which cards offer expense reports
+-add these business cards:
+https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/?inav=footer_cards_bus_crdt_crd
+
 
 Bugs:
 
@@ -14,6 +17,7 @@ Feature Additions:
 Search:
 	- Allow users to search for the best cards for a certain category (split it into general categories (ie groceries, travel), and specialty categroris (chase travel, southwest, etc.)
 	- Allow users to filter by whatever parameters they want (more than 1% groceries & no annual fee, for example)
+
 Context:
 	As soon as the app is open, load the user's credit card data, and the credit card list into the context.
 	Reading from context is faster than reading from a sync storage
