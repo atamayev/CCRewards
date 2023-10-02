@@ -9,7 +9,7 @@ import MyCardsCard from "../components/my-cards-card"
 import MyCardsStyles from "../styles/my-cards-styles"
 
 export default function MyCards () {
-	const navigation = useNavigation<StackNavigationProp<RootStackParamList>>()
+	const navigation = useNavigation<StackNavigationProp<RootStackParamList, "MyCards">>()
 
 	const handleAddCard = () => {
 		navigation.navigate("AddNewCard")

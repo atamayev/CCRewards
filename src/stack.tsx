@@ -4,7 +4,7 @@ import AddNewCard from "./screens/add-new-card"
 import CardDetails from "./screens/card-details"
 
 export default function Stack () {
-	const StackNavigator = createNativeStackNavigator()
+	const StackNavigator = createNativeStackNavigator<RootStackParamList>()
 
 	return (
 		<StackNavigator.Navigator initialRouteName = "MainContainer" screenOptions = {{headerShown:false}}>
