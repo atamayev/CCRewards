@@ -6,6 +6,7 @@ import creditCardsList from "../credit-cards-list"
 import ContainerStyles from "../styles/container-styles"
 import AddNewCardStyles from "../styles/add-new-card-styles"
 import MyCardsCard from "../components/my-cards-card"
+import MyCardsStyles from "../styles/my-cards-styles"
 
 export default function MyCards () {
 	const navigation = useNavigation<StackNavigationProp<RootStackParamList>>()
@@ -16,8 +17,10 @@ export default function MyCards () {
 
 	return (
 		<View style = {ContainerStyles.container}>
-			<View style = {{ position: "absolute", top: 30, left: 20 }}>
-				<Text style = {{ fontWeight: "bold", fontSize: 30 }}>My Cards</Text>
+			<View style = {MyCardsStyles.pageView}>
+				<Text style = {MyCardsStyles.headerText}>
+					My Cards
+				</Text>
 			</View>
 
 			<FlatList
@@ -25,12 +28,7 @@ export default function MyCards () {
 				renderItem = {({ item }) => (
 					<MyCardsCard
 						cardData = {item}
-						style = {{
-							height: 150,
-							width: 250,
-							borderRadius: 10,
-							marginTop:10,
-						}}
+						style = {MyCardsStyles.myCards}
 						onPress = {() => navigation.navigate("CardDetails", { cardData: item.name })}
 					/>
 				)}
