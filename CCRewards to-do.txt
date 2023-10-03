@@ -21,3 +21,5 @@ Feature Additions:
 		-Create a seperate search screen
 		- Allow users to search for the best cards for a certain category (split it into general categories (ie groceries, travel), and specialty categroris (chase travel, southwest, etc.)
 		- Allow users to filter by whatever parameters they want (more than 1% groceries & no annual fee, for example)
+	Profile/Settings Screen:
+		- Do you prefer points or cashback - for when 2X points vs 2% cashback for the same category

@@ -9,11 +9,11 @@
     "web": "expo start --web",
     "type-check": "tsc",
     "lint": "eslint . --ext .ts,.tsx",
-	"validate": "npm run lint && npm run type-check"
+    "validate": "npm run lint && npm run type-check"
   },
   "dependencies": {
     "@expo/webpack-config": "^19.0.0",
-    "@react-native-async-storage/async-storage": "^1.18.2",
+    "@react-native-async-storage/async-storage": "1.18.2",
     "@react-native-picker/picker": "2.4.10",
     "@react-navigation/bottom-tabs": "^6.5.9",
     "@react-navigation/native": "^6.1.8",
