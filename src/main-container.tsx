@@ -1,3 +1,4 @@
+import _ from "lodash"
 import Ionicons from "react-native-vector-icons/Ionicons"
 import { RouteProp, ParamListBase } from "@react-navigation/native"
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
@@ -18,14 +19,22 @@ export default function MainContainer() {
 			} else if (route.name === "My Rewards") {
 				iconName = focused ? "analytics" : "analytics-outline"
 			}
-			return iconName ? <Ionicons name = {iconName} size = {32} color = {color} /> : null
+			if (_.isUndefined(iconName)) return null
+
+			return (
+				<Ionicons
+					name = {iconName}
+					size = {32}
+					color = {color}
+				/>
+			)
 		}
 	})
 
 	return (
-		<Tab.Navigator screenOptions={screenOptions}>
-			<Tab.Screen name="My Cards" component={MyCards} />
-			<Tab.Screen name="My Rewards" component={MyRewards} />
+		<Tab.Navigator screenOptions = {screenOptions}>
+			<Tab.Screen name = "My Cards" component = {MyCards} />
+			<Tab.Screen name = "My Rewards" component = {MyRewards} />
 		</Tab.Navigator>
 	)
 }

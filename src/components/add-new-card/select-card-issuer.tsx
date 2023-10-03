@@ -1,28 +1,22 @@
 import { Text, View } from "react-native"
-import DropdownInput from "../dropdown-input"
-import creditCardIssuers from "../../credit-card-lists/credit-card-issuers"
 import AddNewCardStyles from "../../styles/add-new-card-styles"
+import creditCardIssuers from "../../credit-card-lists/credit-card-issuers"
+import DropdownInput from "../dropdown-input"
 
 interface Props {
-	issuer: string | null
-	handleIssuerChange: (value: string) => void
+	issuer: CreditCardIssuers | null
+	setIssuer: React.Dispatch<React.SetStateAction<CreditCardIssuers | null>>
 }
 
 export default function SelectCardIssuer (props: Props) {
-	const { issuer, handleIssuerChange } = props
+	const { issuer, setIssuer } = props
 
-	const creditCardIssuerOptions = creditCardIssuers.map(issuerItem => ({
-		Label: issuerItem,
-		Value: issuerItem
-	}))
-
-	const creditCardIssuersList = [
-		{
-			Label: "Select an Issuer",
-			Value: null
-		},
-		...creditCardIssuerOptions
-	]
+	const creditCardIssuerOptions = [...creditCardIssuers]
+		.sort((a, b) => a.localeCompare(b))
+		.map((issuerItem: CreditCardIssuers): DropdownItem => ({
+			Label: issuerItem,
+			Value: issuerItem
+		}))
 
 	return (
 		<View>
@@ -30,15 +24,13 @@ export default function SelectCardIssuer (props: Props) {
 				Select a Credit Card Issuer:
 			</Text>
 			<DropdownInput
-				data = {creditCardIssuersList}
+				data = {creditCardIssuerOptions}
 				labelField = "Label"
 				valueField = "Value"
-				placeholder = "Select item"
-				onChange = {(item) => {
-					handleIssuerChange(item)
-				}}
+				placeholder = "Select a Credit Issuer"
+				onChange = {(item) => {setIssuer(item.Value as CreditCardIssuers)}}
 				value = {issuer || ""}
-				customStyle = {AddNewCardStyles.dropdownInputStyles}
+				customStyle = {AddNewCardStyles.selectIssuerDropdownInputStyles}
 			/>
 		</View>
 	)

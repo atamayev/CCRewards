@@ -1,40 +1,50 @@
 import _ from "lodash"
-import { Text } from "react-native"
+import { useMemo } from "react"
+import { Text, View } from "react-native"
 import DropdownInput from "../dropdown-input"
+import creditCards from "../../credit-card-lists/credit-cards"
+import AddNewCardStyles from "../../styles/add-new-card-styles"
 
 interface Props {
-	showCardDropdown: boolean
-	card: string | null
-	issuer: string | null
-	setCard: React.Dispatch<React.SetStateAction<string | null>>
+	card: CreditCardNames | null
+	issuer: CreditCardIssuers | null
+	setCard: React.Dispatch<React.SetStateAction<CreditCardNames | null>>
 }
 
 export default function ChooseACard (props: Props) {
-	const { showCardDropdown, card, issuer, setCard } = props
+	const { card, issuer, setCard } = props
 
-	const cardOptions: { [key: string]: string[] } = {
-		"Chase": ["Chase Freedom", "Chase Sapphire"],
-		"Capital One": ["Capital One Quicksilver", "Capital One Venture"],
-		"Bank of America": ["BankAmerica", "Bank of America Cash Rewards"]
+	const filterCardsByIssuer = (issuerName: CreditCardIssuers): DropdownItem[] => {
+		return Object.entries(creditCards)
+			.sort(([keyA], [keyB]) => keyA.localeCompare(keyB))
+			.filter(([, details]) => details["Card Issuer"] === issuerName)
+			.map(([key]) => ({
+				Label: key,
+				Value: key,
+			}))
 	}
 
-	const handleSetCard = (value: string) => {
-		setCard(value)
-	}
+	const filteredCards = useMemo(() => {
+		if (_.isNull(issuer)) return []
+		return filterCardsByIssuer(issuer)
+	}, [issuer])
 
-	if (!showCardDropdown || _.isNull(issuer)) return null
+	if (_.isNil(issuer)) return null
 
 	return (
-		<>
-			<Text>Choose a Card:</Text>
+		<View>
+			<Text style = {AddNewCardStyles.selectCard}>
+				Select a Credit Card:
+			</Text>
 			<DropdownInput
-				data = {cardOptions[issuer]}
+				data = {filteredCards}
 				labelField = "Label"
 				valueField = "Value"
-				placeholder = "Select item"
-				onChange = {(value) => handleSetCard(value as string)}
+				placeholder = {`Select a ${issuer} credit Card`}
+				onChange = {(value) => setCard(value.Value as CreditCardNames)}
 				value = {card || ""}
+				customStyle = {AddNewCardStyles.selectCardDropdownInputStyles}
 			/>
-		</>
+		</View>
 	)
 }

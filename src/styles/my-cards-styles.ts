@@ -10,11 +10,11 @@ const MyCardsStyles = StyleSheet.create({
 		fontWeight: "bold",
 		fontSize: 30,
 	},
-	myCards: {
+	myCardsImage: {
 		height: 150,
 		width: 250,
-		borderRadius: 10,
-		marginTop:10,
+		borderRadius: 7,
+		// marginTop: 10,
 	}
 })
 

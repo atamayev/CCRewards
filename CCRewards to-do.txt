@@ -20,4 +20,5 @@ Search:
 
 Context:
 	As soon as the app is open, load the user's credit card data, and the credit card list into the context.
+	Do not store the credit card list in async storage (will be accessible for users to steal)
 	Reading from context is faster than reading from a sync storage
