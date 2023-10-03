@@ -3,6 +3,8 @@ declare global {
 		Label: string
 		Value: string
 	}
+
+	type AsyncStorageSavableKeys = "Credit Cards List" | "Reward Preference"
 }
 
 export {}

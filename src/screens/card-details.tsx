@@ -1,5 +1,5 @@
 import { View, Text } from "react-native"
-import ContainerStyles from "../styles/container-styles"
+import CommonStyles from "../styles/common-styles"
 import CustomHeader from "../components/custom-header"
 import { RouteProp } from "@react-navigation/native"
 
@@ -9,7 +9,7 @@ export default function CardDetails({ route }: { route: CardDetailsRouteProp }) 
 	const { cardData } = route.params
 
 	return (
-		<View style = {ContainerStyles.container}>
+		<View style = {CommonStyles.mainContainer}>
 			<CustomHeader headerText = {"Card Details"} />
 			<Text>{cardData}</Text>
 		</View>

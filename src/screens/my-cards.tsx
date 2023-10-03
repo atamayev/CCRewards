@@ -3,12 +3,12 @@ import { observer } from "mobx-react"
 import { useNavigation } from "@react-navigation/native"
 import { StackNavigationProp } from "@react-navigation/stack"
 import Ionicons from "react-native-vector-icons/Ionicons"
-import { Pressable, View, Text, FlatList } from "react-native"
-import ContainerStyles from "../styles/container-styles"
+import { Pressable, View, FlatList } from "react-native"
 import AddNewCardStyles from "../styles/add-new-card-styles"
 import SingleHomeScreenCard from "../components/single-home-screen-card"
 import MyCardsStyles from "../styles/my-cards-styles/my-cards-styles"
 import AppContext from "../contexts/cc-rewards-context"
+import PageHeader from "../components/page-header"
 
 function MyCards () {
 	const navigation = useNavigation<StackNavigationProp<RootStackParamList, "My Cards">>()
@@ -18,16 +18,6 @@ function MyCards () {
 
 	const handleAddCard = () => {
 		navigation.navigate("Add New Card")
-	}
-
-	function HeaderText () {
-		return (
-			<View style = {MyCardsStyles.headerTextView}>
-				<Text style = {MyCardsStyles.headerText}>
-					My Cards
-				</Text>
-			</View>
-		)
 	}
 
 	function CardsList () {
@@ -52,13 +42,11 @@ function MyCards () {
 	}
 
 	return (
-		<View style = {ContainerStyles.container}>
-			<HeaderText />
-
+		<PageHeader title = "My Cards">
 			<CardsList />
 
 			<AddNewCardButton />
-		</View>
+		</PageHeader>
 	)
 }
 
