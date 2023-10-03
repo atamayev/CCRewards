@@ -30,7 +30,7 @@ function SearchAndSelectCard (props: Props) {
 	return (
 		<View >
 			<Text style = {AddNewCardStyles.searchAndSelectCardText}>
-				Or, search for a card
+				Search for a Credit Card
 			</Text>
 			<DropdownInput
 				data = {creditCardNamesOptions}

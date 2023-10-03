@@ -2,7 +2,7 @@ import { ViewStyle } from "react-native"
 
 const tabBarStyle: ViewStyle = {
 	height: 60,
-	borderRadius: 20,
+	borderRadius: 10,
 	backgroundColor: "#fff",
 	position: "absolute",
 	bottom: 20,

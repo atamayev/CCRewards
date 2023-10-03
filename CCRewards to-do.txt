@@ -1,16 +1,12 @@
-Plan:
-- Make the entire app local - no need for internet.
-	Just enter cards, see rewards.
-- Card list can be held in a json file in the app.
-- Hold user cards in async storage
+UI-to-do:
+	- Make home screen scrollable, need to fix the styling/views
+	- Scrolling over a button shouldn't activate that button
 
 To-do:
--If the app is to be able to run locally, all the images will have to be downloaded and stored locally
--add these business cards:
-https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/?inav=footer_cards_bus_crdt_crd
-- Figure out adding a fallback image when the URI doesn't fetch data correctly (add-new-card, my-cards)
-
-Bugs:
+	-If the app is to be able to run locally, all the images will have to be downloaded and stored locally
+	-add these business cards:
+	https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/?inav=footer_cards_bus_crdt_crd
+	- Figure out adding a fallback image when the URI doesn't fetch data correctly (add-new-card, my-cards)
 
 Feature Additions:
 	My Rewards

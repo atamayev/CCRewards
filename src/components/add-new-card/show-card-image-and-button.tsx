@@ -16,13 +16,13 @@ function ShowCardImageAndButton (props: Props) {
 	const { card } = props
 	const appContext = useContext(AppContext)
 
-	const navigation = useNavigation<StackNavigationProp<RootStackParamList, "AddNewCard">>()
+	const navigation = useNavigation<StackNavigationProp<RootStackParamList, "Add New Card">>()
 
 	const handleAddCard = async (): Promise<void> => {
 		if (_.isNull(card)) return
 
 		await appContext.addCreditCard(card)
-		navigation.navigate("MyCards")
+		navigation.navigate("My Cards")
 	}
 
 	if (_.isNull(card)) return null

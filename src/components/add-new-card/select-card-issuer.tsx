@@ -27,7 +27,7 @@ function SelectCardIssuer (props: Props) {
 	return (
 		<View>
 			<Text style = {AddNewCardStyles.selectCardIssuerText}>
-				Select a Credit Card Issuer:
+				Or, Start by Selecting a Credit Card Issuer:
 			</Text>
 			<DropdownInput
 				data = {creditCardIssuerOptions}

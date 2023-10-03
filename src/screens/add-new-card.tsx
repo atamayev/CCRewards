@@ -14,6 +14,12 @@ export default function AddNewCard() {
 	return (
 		<View style = {ContainerStyles.container}>
 			<CustomHeader headerText = {"Add a New Card"} />
+
+			<SearchAndSelectCard
+				card = {card}
+				setCard = {setCard}
+			/>
+
 			<SelectCardIssuer
 				issuer = {issuer}
 				setIssuer = {setIssuer}
@@ -22,11 +28,6 @@ export default function AddNewCard() {
 			<SelectCard
 				card = {card}
 				issuer = {issuer}
-				setCard = {setCard}
-			/>
-
-			<SearchAndSelectCard
-				card = {card}
 				setCard = {setCard}
 			/>
 

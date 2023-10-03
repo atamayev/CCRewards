@@ -3,7 +3,7 @@ import ContainerStyles from "../styles/container-styles"
 import CustomHeader from "../components/custom-header"
 import { RouteProp } from "@react-navigation/native"
 
-type CardDetailsRouteProp = RouteProp<RootStackParamList, "CardDetails">
+type CardDetailsRouteProp = RouteProp<RootStackParamList, "Card Details">
 
 export default function CardDetails({ route }: { route: CardDetailsRouteProp }) {
 	const { cardData } = route.params

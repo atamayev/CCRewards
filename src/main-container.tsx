@@ -14,9 +14,9 @@ export default function MainContainer() {
 		headerShown: false,
 		tabBarIcon: ({ focused, color }: { focused: boolean; color: string }) => {
 			let iconName
-			if (route.name === "MyCards") {
+			if (route.name === "My Cards") {
 				iconName = focused ? "card" : "card-outline"
-			} else if (route.name === "MyRewards") {
+			} else if (route.name === "My Rewards") {
 				iconName = focused ? "analytics" : "analytics-outline"
 			}
 			if (_.isUndefined(iconName)) return null
@@ -33,8 +33,8 @@ export default function MainContainer() {
 
 	return (
 		<Tab.Navigator screenOptions = {screenOptions}>
-			<Tab.Screen name = "MyCards" component = {MyCards} />
-			<Tab.Screen name = "MyRewards" component = {MyRewards} />
+			<Tab.Screen name = "My Cards" component = {MyCards} />
+			<Tab.Screen name = "My Rewards" component = {MyRewards} />
 		</Tab.Navigator>
 	)
 }
