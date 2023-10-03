@@ -1,17 +1,23 @@
+import { useContext } from "react"
+import { observer } from "mobx-react"
 import { Text, View } from "react-native"
 import AddNewCardStyles from "../../styles/add-new-card-styles"
-import creditCardIssuers from "../../credit-card-lists/credit-card-issuers"
 import DropdownInput from "../dropdown-input"
+import AppContext from "../../contexts/cc-rewards-context"
+import filterAvailableIssuers from "../../helper-functions/filter-available-issuers"
 
 interface Props {
 	issuer: CreditCardIssuers | null
 	setIssuer: React.Dispatch<React.SetStateAction<CreditCardIssuers | null>>
 }
 
-export default function SelectCardIssuer (props: Props) {
+function SelectCardIssuer (props: Props) {
 	const { issuer, setIssuer } = props
+	const appContext = useContext(AppContext)
 
-	const creditCardIssuerOptions = [...creditCardIssuers]
+	const filteredIssuers = filterAvailableIssuers(appContext)
+
+	const creditCardIssuerOptions: DropdownItem[] = filteredIssuers
 		.sort((a, b) => a.localeCompare(b))
 		.map((issuerItem: CreditCardIssuers): DropdownItem => ({
 			Label: issuerItem,
@@ -20,7 +26,7 @@ export default function SelectCardIssuer (props: Props) {
 
 	return (
 		<View>
-			<Text style = {AddNewCardStyles.selectCardIssuer}>
+			<Text style = {AddNewCardStyles.selectCardIssuerText}>
 				Select a Credit Card Issuer:
 			</Text>
 			<DropdownInput
@@ -35,3 +41,5 @@ export default function SelectCardIssuer (props: Props) {
 		</View>
 	)
 }
+
+export default observer(SelectCardIssuer)

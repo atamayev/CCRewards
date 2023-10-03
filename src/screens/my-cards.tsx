@@ -13,6 +13,8 @@ import AppContext from "../contexts/cc-rewards-context"
 function MyCards () {
 	const navigation = useNavigation<StackNavigationProp<RootStackParamList, "MyCards">>()
 	const appContext = useContext(AppContext)
+	//This console.log somehow makes the cards show up after adding/deleting
+	console.log(appContext.creditCards)
 
 	const handleAddCard = () => {
 		navigation.navigate("AddNewCard")
@@ -26,15 +28,16 @@ function MyCards () {
 				</Text>
 			</View>
 
-			<FlatList
-				data = {appContext.creditCards}
-				renderItem = {({ item }) => (
-					<SingleHomeScreenCard
-						cardName = {item}
-						onPress = {() => navigation.navigate("CardDetails", { cardData: item })}
-					/>
-				)}
-			/>
+			<View style = {MyCardsStyles.imageArea}>
+				<FlatList
+					data = {appContext.creditCards}
+					renderItem = {({ item }) => (
+						<SingleHomeScreenCard
+							cardName = {item}
+						/>
+					)}
+				/>
+			</View>
 			<Pressable onPress = {handleAddCard} style = {AddNewCardStyles.plusIcon}>
 				<Ionicons name = "add-circle" size = {60} />
 			</Pressable>

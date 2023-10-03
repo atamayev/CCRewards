@@ -717,7 +717,7 @@ const creditCards: CreditCardData = {
 		"Card Issuer": "Chase",
 		"Card Type": "Personal",
 		"Last Updated": "10/01/2023",
-		"Image URL": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+		"Image URL": "https://creditcards.chase.com/K-Marketplace/images/cardart/card_swa_priority_V.png",
 		"Description": "Southwest Rapid Rewards® Priority Credit Card",
 		"Annual Fee": 149,
 		"Information URL": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",

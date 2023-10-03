@@ -6,7 +6,7 @@ const AddNewCardStyles = StyleSheet.create({
 		right: 10,
 		bottom: 80,
 	},
-	selectCardIssuer: {
+	selectCardIssuerText: {
 		position: "absolute",
 		top: 80,
 		left: "10%",
@@ -19,16 +19,29 @@ const AddNewCardStyles = StyleSheet.create({
 		left: "10%",
 		width: "80%",
 	},
-	selectCard: {
+	selectCardText: {
 		position: "absolute",
-		top: 175,
+		top: 180,
 		left: "10%",
 		fontSize: 20,
 		fontWeight: "bold",
 	},
 	selectCardDropdownInputStyles: {
 		position: "absolute",
-		top: 215,
+		top: 220,
+		left: "10%",
+		width: "80%",
+	},
+	searchAndSelectCardText: {
+		position: "absolute",
+		top: 280,
+		left: "10%",
+		fontSize: 20,
+		fontWeight: "bold",
+	},
+	searchAndSelectCardInputStyles: {
+		position: "absolute",
+		top: 320,
 		left: "10%",
 		width: "80%",
 	},
@@ -37,7 +50,7 @@ const AddNewCardStyles = StyleSheet.create({
 		bottom: 100,
 		left: "10%",
 		width: "80%",
-		height: "20%",
+		height: "25%",
 		aspectRatio: 1,
 		borderRadius: 10,
 	},

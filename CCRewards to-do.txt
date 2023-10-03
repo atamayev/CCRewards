@@ -5,15 +5,20 @@ Plan:
 - Hold user cards in async storage
 
 To-do:
-- if a card is already added to the list, it should not be able to be added again.
 -If the app is to be able to run locally, all the images will have to be downloaded and stored locally
 -add these business cards:
 https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/?inav=footer_cards_bus_crdt_crd
+- Figure out adding a fallback image when the URI doesn't fetch data correctly (add-new-card, my-cards)
 
 Bugs:
 
 Feature Additions:
-Search:
-	-Create a seperate search screen
-	- Allow users to search for the best cards for a certain category (split it into general categories (ie groceries, travel), and specialty categroris (chase travel, southwest, etc.)
-	- Allow users to filter by whatever parameters they want (more than 1% groceries & no annual fee, for example)
+	My Rewards
+		- Based on the user's existing cards, create a list of categories that the user qualifies for rewards, and display them
+		- If two cards have the same reward, show that, and emphasize that teh user should use one card over the other
+	Search:
+		-Create a seperate search screen
+		- Allow users to search for the best cards for a certain category (split it into general categories (ie groceries, travel), and specialty categroris (chase travel, southwest, etc.)
+		- Allow users to filter by whatever parameters they want (more than 1% groceries & no annual fee, for example)
+	Profile/Settings Screen:
+		- Do you prefer points or cashback - for when 2X points vs 2% cashback for the same category
