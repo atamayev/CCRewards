@@ -4,9 +4,9 @@ import { View, Image, Pressable } from "react-native"
 import Ionicons from "react-native-vector-icons/Ionicons"
 import { useNavigation } from "@react-navigation/native"
 import { StackNavigationProp } from "@react-navigation/stack"
-import MyCardsStyles from "../styles/my-cards-styles"
 import creditCards from "../credit-card-lists/credit-cards"
 import AppContext from "../contexts/cc-rewards-context"
+import SingleHomeScreenCardStyles from "../styles/my-cards-styles/single-home-screen-card-styles"
 
 interface Props {
 	cardName: CreditCardNames
@@ -14,7 +14,7 @@ interface Props {
 
 function SingleHomeScreenCard(props: Props) {
 	const { cardName } = props
-	const navigation = useNavigation<StackNavigationProp<RootStackParamList, "MyCards">>()
+	const navigation = useNavigation<StackNavigationProp<RootStackParamList, "My Cards">>()
 	const appContext = useContext(AppContext)
 
 	const handleDeleteCard = () => {
@@ -22,20 +22,40 @@ function SingleHomeScreenCard(props: Props) {
 	}
 
 	const navigateToCardDetails = () => {
-		navigation.navigate("CardDetails", { cardData: cardName })
+		navigation.navigate("Card Details", { cardData: cardName })
+	}
+
+	function CardImage () {
+		return (
+			<View style = {SingleHomeScreenCardStyles.viewImageHolder}>
+				<Pressable onPress = {navigateToCardDetails}>
+					<Image
+						style = {SingleHomeScreenCardStyles.myCardsImage}
+						source = {{ uri: creditCards[cardName]["Image URL"] }}
+					/>
+				</Pressable>
+			</View>
+		)
+	}
+
+	function CardDeleteButton () {
+		return (
+			<View style = {SingleHomeScreenCardStyles.deleteButtonContainer}>
+				<Pressable
+					onPress = {handleDeleteCard}
+					style = {SingleHomeScreenCardStyles.deleteButtonPressable}
+				>
+					<Ionicons name = "close-circle-outline" size={45} />
+				</Pressable>
+			</View>
+		)
 	}
 
 	return (
-		<View>
-			<Pressable onPress = {navigateToCardDetails}>
-				<Image
-					style = {MyCardsStyles.myCardsImage}
-					source = {{ uri: creditCards[cardName]["Image URL"] }}
-				/>
-			</Pressable>
-			<Pressable onPress = {handleDeleteCard}>
-				<Ionicons name="close-circle-outline" size={45} />
-			</Pressable>
+		<View style = {SingleHomeScreenCardStyles.cardContainer}>
+			<CardImage />
+
+			<CardDeleteButton />
 		</View>
 	)
 }

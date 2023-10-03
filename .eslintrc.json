@@ -109,7 +109,7 @@
 			}
 		},
 		{
-			"files": ["./src/styles/*.ts"],
+			"files": ["./src/styles/**/*.ts"],
 			"rules": {
 				"@typescript-eslint/naming-convention": "off"
 			}

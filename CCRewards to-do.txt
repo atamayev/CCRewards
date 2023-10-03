@@ -5,12 +5,13 @@ Plan:
 - Hold user cards in async storage
 
 To-do:
--If the app is to be able to run locally, all the images will have to be downloaded and stored locally
--add these business cards:
-https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/?inav=footer_cards_bus_crdt_crd
-- Figure out adding a fallback image when the URI doesn't fetch data correctly (add-new-card, my-cards)
+	-If the app is to be able to run locally, all the images will have to be downloaded and stored locally
+	-add these business cards:
+	https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/?inav=footer_cards_bus_crdt_crd
+	- Figure out adding a fallback image when the URI doesn't fetch data correctly (add-new-card, my-cards)
 
 Bugs:
+	- Home screen unscrollable, need to fix the styling/views (also make the x next to the picture instead of underneath)
 
 Feature Additions:
 	My Rewards
