@@ -5,7 +5,6 @@ Plan:
 - Hold user cards in async storage
 
 To-do:
-- if a card is already added to the list, it should not be able to be added again. make sure this works on the issuer level as well
 -If the app is to be able to run locally, all the images will have to be downloaded and stored locally
 -add these business cards:
 https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/?inav=footer_cards_bus_crdt_crd
