@@ -11,8 +11,9 @@ To-do:
 	- Figure out adding a fallback image when the URI doesn't fetch data correctly (add-new-card, my-cards)
 
 Bugs:
-	- Home screen unscrollable, need to fix the styling/views (also make the x next to the picture instead of underneath)
-
+	- Make home screen scrollable, need to fix the styling/views
+	- Scrolling over a button shouldn't activate that button
+	
 Feature Additions:
 	My Rewards
 		- Based on the user's existing cards, create a list of categories that the user qualifies for rewards, and display them
