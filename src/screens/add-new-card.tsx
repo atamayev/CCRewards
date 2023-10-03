@@ -6,11 +6,12 @@ import { useNavigation } from "@react-navigation/native"
 import { StackNavigationProp } from "@react-navigation/stack"
 import CustomHeader from "../components/custom-header"
 import ContainerStyles from "../styles/container-styles"
-import ChooseACard from "../components/add-new-card/choose-a-card"
+import SelectCard from "../components/add-new-card/select-card"
 import SelectCardIssuer from "../components/add-new-card/select-card-issuer"
 import AddNewCardStyles from "../styles/add-new-card-styles"
 import creditCards from "../credit-card-lists/credit-cards"
 import AppContext from "../contexts/cc-rewards-context"
+import SearchAndSelectCard from "../components/add-new-card/search-and-select-card"
 
 function AddNewCard() {
 	const appContext = useContext(AppContext)
@@ -49,16 +50,22 @@ function AddNewCard() {
 
 	return (
 		<View style = {ContainerStyles.container}>
-			<CustomHeader headerText = {"Add New Card"} />
+			<CustomHeader headerText = {"Add a New Card"} />
 			<SelectCardIssuer
 				issuer = {issuer}
 				setIssuer = {setIssuer}
 			/>
 
-			<ChooseACard
+			<SelectCard
 				card = {card}
 				issuer = {issuer}
 				setCard = {setCard}
+			/>
+
+			<SearchAndSelectCard
+				card = {card}
+				setCard = {setCard}
+				setIssuer = {setIssuer}
 			/>
 
 			<ShowButton />

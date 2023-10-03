@@ -20,7 +20,7 @@ export default function SelectCardIssuer (props: Props) {
 
 	return (
 		<View>
-			<Text style = {AddNewCardStyles.selectCardIssuer}>
+			<Text style = {AddNewCardStyles.selectCardIssuerText}>
 				Select a Credit Card Issuer:
 			</Text>
 			<DropdownInput

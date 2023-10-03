@@ -11,7 +11,7 @@ interface Props {
 	setCard: React.Dispatch<React.SetStateAction<CreditCardNames | null>>
 }
 
-export default function ChooseACard (props: Props) {
+export default function SelectCard (props: Props) {
 	const { card, issuer, setCard } = props
 
 	const filterCardsByIssuer = (issuerName: CreditCardIssuers): DropdownItem[] => {
@@ -33,7 +33,7 @@ export default function ChooseACard (props: Props) {
 
 	return (
 		<View>
-			<Text style = {AddNewCardStyles.selectCard}>
+			<Text style = {AddNewCardStyles.selectCardText}>
 				Select a Credit Card:
 			</Text>
 			<DropdownInput
