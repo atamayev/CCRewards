@@ -28,14 +28,16 @@ function MyCards () {
 				</Text>
 			</View>
 
-			<FlatList
-				data = {appContext.creditCards}
-				renderItem = {({ item }) => (
-					<SingleHomeScreenCard
-						cardName = {item}
-					/>
-				)}
-			/>
+			<View style = {MyCardsStyles.imageArea}>
+				<FlatList
+					data = {appContext.creditCards}
+					renderItem = {({ item }) => (
+						<SingleHomeScreenCard
+							cardName = {item}
+						/>
+					)}
+				/>
+			</View>
 			<Pressable onPress = {handleAddCard} style = {AddNewCardStyles.plusIcon}>
 				<Ionicons name = "add-circle" size = {60} />
 			</Pressable>

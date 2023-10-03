@@ -10,6 +10,16 @@ const MyCardsStyles = StyleSheet.create({
 		fontWeight: "bold",
 		fontSize: 30,
 	},
+	imageArea: {
+		position: "absolute",
+		flex: 1,
+		flexDirection: "row",
+		justifyContent: "space-between",
+		marginTop: 20,
+		marginLeft: 20,
+		marginRight: 20,
+		top: 80,
+	},
 	myCardsImage: {
 		height: 150,
 		width: 250,
