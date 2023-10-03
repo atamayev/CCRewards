@@ -1,4 +1,4 @@
-const getIconName = (routeName: string, focused: boolean) => {
+const getIconName = (routeName: string, focused: boolean): string | undefined => {
 	let iconName
 
 	if (routeName === "My Cards") {
