@@ -1,6 +1,10 @@
 import { StyleSheet } from "react-native"
 
-const MyRewardsStyles = StyleSheet.create({
+const CommonStyles = StyleSheet.create({
+	mainContainer: {
+		flex: 1,
+		backgroundColor: "#fff",
+	},
 	pageView: {
 		position: "absolute",
 		top: 30,
@@ -12,4 +16,4 @@ const MyRewardsStyles = StyleSheet.create({
 	}
 })
 
-export default MyRewardsStyles
+export default CommonStyles

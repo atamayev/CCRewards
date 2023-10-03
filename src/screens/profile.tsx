@@ -1,8 +1,8 @@
 import PageHeader from "../components/page-header"
 
-export default function MyRewards () {
+export default function Profile () {
 	return (
-		<PageHeader title = "My Rewards">
+		<PageHeader title = "Profile">
 
 		</PageHeader>
 	)
