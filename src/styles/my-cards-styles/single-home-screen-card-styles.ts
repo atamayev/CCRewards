@@ -23,9 +23,8 @@ const SingleHomeScreenCardStyles = StyleSheet.create({
 		justifyContent: "center",
 		alignItems: "center",
 	},
-
 	deleteButtonPressable: {
-		padding: 5,
+		padding: 1,
 	}
 })
 

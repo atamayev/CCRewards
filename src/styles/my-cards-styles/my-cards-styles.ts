@@ -11,10 +11,7 @@ const MyCardsStyles = StyleSheet.create({
 		fontSize: 30,
 	},
 	flatListView: {
-		position: "absolute",
 		flex: 1,
-		flexDirection: "row",
-		justifyContent: "space-between",
 		marginTop: 20,
 		marginLeft: 20,
 		top: 80,
