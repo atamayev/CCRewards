@@ -1,25 +1,21 @@
 import { View, Image, Pressable } from "react-native"
 import MyCardsStyles from "../styles/my-cards-styles"
+import creditCards from "../credit-card-lists/credit-cards"
 
 interface Props {
-	cardData: {
-		name: string
-		image_url: string
-		rewards: string
-	}
-	style: object
+	cardName: CreditCardNames
 	onPress: () => void
 }
 
 export default function SingleHomeScreenCard(props: Props) {
-	const { cardData, style } = props
+	const { cardName } = props
 
 	return (
-		<View style = {style}>
+		<View style = {MyCardsStyles.myCardsImage}>
 			<Pressable onPress = {props.onPress}>
 				<Image
 					style = {MyCardsStyles.myCardsImage}
-					source = {{ uri: cardData.image_url }}
+					source = {{ uri: creditCards[cardName]["Image URL"] }}
 				/>
 			</Pressable>
 		</View>

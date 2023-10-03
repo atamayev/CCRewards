@@ -5,7 +5,7 @@ declare global {
 		MyRewards: undefined
 		MainTabs: undefined
 		AddNewCard: undefined
-		CardDetails: { cardData: string }
+		CardDetails: { cardData: CreditCardNames }
 	}
 }
 
