@@ -1,11 +1,10 @@
 declare global {
 	type RootStackParamList = {
-		MainContainer: undefined
-		MyCards: undefined
-		MyRewards: undefined
-		MainTabs: undefined
-		AddNewCard: undefined
-		CardDetails: { cardData: CreditCardNames }
+		"Main Container": undefined
+		"My Cards": undefined
+		"My Rewards": undefined
+		"Add New Card": undefined
+		"Card Details": { cardData: CreditCardNames }
 	}
 }
 
