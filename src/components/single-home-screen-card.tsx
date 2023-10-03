@@ -11,7 +11,7 @@ interface Props {
 	onPress: () => void
 }
 
-export default function MyCardsCard(props: Props) {
+export default function SingleHomeScreenCard(props: Props) {
 	const { cardData, style } = props
 
 	return (

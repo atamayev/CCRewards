@@ -19,6 +19,5 @@ Search:
 	- Allow users to filter by whatever parameters they want (more than 1% groceries & no annual fee, for example)
 
 Context:
-	As soon as the app is open, load the user's credit card data, and the credit card list into the context.
-	Do not store the credit card list in async storage (will be accessible for users to steal)
-	Reading from context is faster than reading from a sync storage
+	As soon as the app is open, load the user's credit card data into the context from async storage.
+	Reading from context is faster than reading from async storage

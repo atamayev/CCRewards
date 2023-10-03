@@ -35,8 +35,9 @@ const AddNewCardStyles = StyleSheet.create({
 	imageStyles: {
 		position: "absolute",
 		bottom: 100,
-		left: "30%",
-		width: "40%",
+		left: "10%",
+		width: "80%",
+		height: "20%",
 		aspectRatio: 1,
 		borderRadius: 10,
 	},
@@ -45,6 +46,9 @@ const AddNewCardStyles = StyleSheet.create({
 		bottom: 20,
 		left: "10%",
 		width: "80%",
+		borderWidth: 1,
+		borderColor: "black",
+		borderRadius: 10,
 	},
 	addButtonText: {
 		fontSize: 20,
