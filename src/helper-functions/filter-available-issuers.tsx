@@ -15,6 +15,7 @@ const filterAvailableIssuers = (appContext: CCRewardsContext) => {
 	const issuerToCardsMapping = mapIssuersToCards()
 
 	return creditCardIssuers.filter((issuerName) => {
+		// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
 		const cardsForIssuer = issuerToCardsMapping[issuerName] || []
 		return !cardsForIssuer.every((card) => appContext.creditCards.includes(card))
 	})
