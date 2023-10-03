@@ -1,4 +1,5 @@
 import { View, Image, Pressable } from "react-native"
+import MyCardsStyles from "../styles/my-cards-styles"
 
 interface Props {
 	cardData: {
@@ -10,14 +11,14 @@ interface Props {
 	onPress: () => void
 }
 
-export default function MyCardsCard(props: Props) {
+export default function SingleHomeScreenCard(props: Props) {
 	const { cardData, style } = props
 
 	return (
 		<View style = {style}>
 			<Pressable onPress = {props.onPress}>
 				<Image
-					style = {{ height: 150, width: 250, borderRadius: 7 }}
+					style = {MyCardsStyles.myCardsImage}
 					source = {{ uri: cardData.image_url }}
 				/>
 			</Pressable>

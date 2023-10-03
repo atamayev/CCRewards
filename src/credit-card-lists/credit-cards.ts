@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
 const creditCards: CreditCardData = {
 	"Amazon Rewards Visa Signature": {
+		"Card Issuer": "Chase",
 		"Card Type": "Personal",
 		"Last Updated": "10/01/2023",
 		"Image URL": "https://m.media-amazon.com/images/I/41XVYoxzvjL._AC_UL400_.jpg",
-		"Card Issuer": "Chase",
 		"Description": "Amazon Rewards Visa Signature Card",
 		"Annual Fee": 0,
 		"Information URL": "https://www.amazon.com/Prime-Visa/dp/BT00LN946S",
