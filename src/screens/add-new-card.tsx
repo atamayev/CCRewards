@@ -65,7 +65,6 @@ function AddNewCard() {
 			<SearchAndSelectCard
 				card = {card}
 				setCard = {setCard}
-				setIssuer = {setIssuer}
 			/>
 
 			<ShowButton />

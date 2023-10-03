@@ -6,11 +6,10 @@ import creditCardNames from "../../credit-card-lists/credit-card-names"
 interface Props {
 	card: CreditCardNames | null
 	setCard: React.Dispatch<React.SetStateAction<CreditCardNames | null>>
-	setIssuer: React.Dispatch<React.SetStateAction<CreditCardIssuers | null>>
 }
 
 export default function SearchAndSelectCard (props: Props) {
-	const { card, setCard, setIssuer } = props
+	const { card, setCard } = props
 
 	const creditCardNamesOptions = [...creditCardNames]
 		.sort((a, b) => a.localeCompare(b))
