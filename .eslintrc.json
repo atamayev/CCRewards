@@ -77,7 +77,7 @@
 				"selector": "variable",
 				"format": ["camelCase"],
 				"filter": {
-				  "regex": "^(Tab|StackNavigator)$",
+				  "regex": "^(Tab|StackNavigator|AppContext)$",
 				  "match": false
 				}
 			},
@@ -89,7 +89,7 @@
 				"selector": "parameter",
 				"format": ["camelCase"],
 				"filter": {
-					"regex": "^(Tab|StackNavigator)$",
+					"regex": "^(Tab|StackNavigator|AppContext)$",
 					"match": false
 				}
 			},

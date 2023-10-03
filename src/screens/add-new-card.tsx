@@ -1,17 +1,19 @@
 import _ from "lodash"
-import { useState } from "react"
+import { observer } from "mobx-react"
+import { useState, useContext } from "react"
 import { View, TouchableOpacity, Text, Image } from "react-native"
 import { useNavigation } from "@react-navigation/native"
 import { StackNavigationProp } from "@react-navigation/stack"
-import AsyncStorage from "@react-native-async-storage/async-storage"
 import CustomHeader from "../components/custom-header"
 import ContainerStyles from "../styles/container-styles"
 import ChooseACard from "../components/add-new-card/choose-a-card"
 import SelectCardIssuer from "../components/add-new-card/select-card-issuer"
 import AddNewCardStyles from "../styles/add-new-card-styles"
 import creditCards from "../credit-card-lists/credit-cards"
+import AppContext from "../contexts/cc-rewards-context"
 
-export default function AddNewCard() {
+function AddNewCard() {
+	const appContext = useContext(AppContext)
 	const [issuer, setIssuer] = useState<CreditCardIssuers | null>(null)
 	const [card, setCard] = useState<CreditCardNames | null>(null)
 
@@ -20,7 +22,7 @@ export default function AddNewCard() {
 	const handleAddCard = async (): Promise<void> => {
 		if (_.isNull(card)) return
 
-		await AsyncStorage.setItem("selectedCard", card)
+		await appContext.addCreditCard(card)
 		navigation.navigate("MyCards")
 	}
 
@@ -64,3 +66,5 @@ export default function AddNewCard() {
 		</View>
 	)
 }
+
+export default observer(AddNewCard)
