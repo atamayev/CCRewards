@@ -1,9 +1,11 @@
 import _ from "lodash"
-import { useMemo } from "react"
+import { observer } from "mobx-react"
+import { useMemo, useContext } from "react"
 import { Text, View } from "react-native"
 import DropdownInput from "../dropdown-input"
 import creditCards from "../../credit-card-lists/credit-cards"
 import AddNewCardStyles from "../../styles/add-new-card-styles"
+import AppContext from "../../contexts/cc-rewards-context"
 
 interface Props {
 	card: CreditCardNames | null
@@ -11,13 +13,16 @@ interface Props {
 	setCard: React.Dispatch<React.SetStateAction<CreditCardNames | null>>
 }
 
-export default function SelectCard (props: Props) {
+function SelectCard (props: Props) {
 	const { card, issuer, setCard } = props
+	const appContext = useContext(AppContext)
 
 	const filterCardsByIssuer = (issuerName: CreditCardIssuers): DropdownItem[] => {
 		return Object.entries(creditCards)
 			.sort(([keyA], [keyB]) => keyA.localeCompare(keyB))
-			.filter(([, details]) => details["Card Issuer"] === issuerName)
+			.filter(
+				([key, details]) => details["Card Issuer"] === issuerName && !appContext.creditCards.includes(key as CreditCardNames)
+			)
 			.map(([key]) => ({
 				Label: key,
 				Value: key,
@@ -48,3 +53,5 @@ export default function SelectCard (props: Props) {
 		</View>
 	)
 }
+
+export default observer(SelectCard)
