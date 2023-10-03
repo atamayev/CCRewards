@@ -37,7 +37,7 @@ export default function DropdownInput <T extends DropdownItem>(props: Props<T>) 
 			inputSearchStyle = {{
 				borderBottomWidth: 0,
 				backgroundColor: "#f2f2f2",
-				borderRadius: 20,
+				borderRadius: 10,
 				paddingHorizontal: 12,
 				marginHorizontal: 16,
 				marginBottom: 8,
