@@ -8,8 +8,7 @@ interface Props<T extends DropdownItem>{
 	placeholder: string
 	onChange: (value: T) => void
 	value: string
-	customStyle?: any
-	setIsFocus?: (value: boolean) => void
+	customStyle?: any,
 }
 
 export default function DropdownInput <T extends DropdownItem>(props: Props<T>) {

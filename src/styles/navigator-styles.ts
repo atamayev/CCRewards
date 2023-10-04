@@ -5,7 +5,7 @@ const tabBarStyle: ViewStyle = {
 	borderRadius: 10,
 	backgroundColor: "#fff",
 	position: "absolute",
-	bottom: 20,
+	bottom: 10,
 	left: 20,
 	right: 20,
 	alignItems: "center",
