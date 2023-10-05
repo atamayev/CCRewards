@@ -6,6 +6,27 @@ import SearchStyles from "../styles/search-styles"
 import creditCardNames from "../credit-card-lists/credit-card-names"
 import SingleSearchScreenCard from "../components/single-search-screen-card"
 import { CardIssuersDropdown, RewardTypeDropdown, SpendingCategoryDropdown } from "../components/search-filters"
+import creditCards from "../credit-card-lists/credit-cards"
+
+// eslint-disable-next-line complexity
+function matchesFilter(cardData: any, filter: SearchFilter) {
+	if (filter.query && !_.toLower(cardData.cardName).includes(_.toLower(filter.query))) {
+		return false
+	}
+	if (filter.annualFee !== 0 && cardData["Annual Fee"] !== filter.annualFee) {
+		return false
+	}
+	if (filter.cardIssuer && cardData["Card Issuer"] !== filter.cardIssuer) {
+		return false
+	}
+	if (filter.rewardType || filter.spendingCategory) {
+		for (const [category, reward] of Object.entries(cardData.Rewards)) {
+			if (filter.rewardType && reward["Reward Type"] !== filter.rewardType) return false
+			if (filter.spendingCategory && category !== filter.spendingCategory) return false
+		}
+	}
+	return true
+}
 
 export default function Search () {
 	const [filter, setFilter] = useState<SearchFilter>({
@@ -18,17 +39,12 @@ export default function Search () {
 	const [searchResults, setSearchResults] = useState<CreditCardNames[]>([...creditCardNames])
 
 	useEffect(() => {
-		if (filter.query === "") setSearchResults([...creditCardNames])
-		else {
-			const lowerCaseQuery = _.toLower(filter.query)
+		const filteredResults = Object.keys(creditCards).filter(cardName => {
+			return matchesFilter({ ...creditCards[cardName], cardName }, filter)
+		})
+		console.log(filteredResults)
 
-			// Filter credit cards based on the query
-			const filteredResults = creditCardNames.filter(cardName =>
-				_.toLower(cardName).includes(lowerCaseQuery)
-			)
-
-			setSearchResults(filteredResults)
-		}
+		setSearchResults(filteredResults)
 
 	}, [filter])
 

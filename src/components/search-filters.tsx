@@ -1,6 +1,7 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-import _ from "lodash"
-import { creditCardIssuersOptions } from "../helper-functions/mapped-credit-options"
+import { creditCardIssuersOptions,
+	creditCardRewardTypesOptions,
+	creditCardSpendingCategoriesOptions
+} from "../helper-functions/mapped-credit-options"
 import DropdownInput from "./dropdown-input"
 
 const handleDropdownChange = (
@@ -12,7 +13,6 @@ const handleDropdownChange = (
 		...prevFilter,
 		[attribute]: value.Value
 	}))
-	console.log(value.Value)
 }
 
 interface Props {
@@ -40,7 +40,7 @@ export function RewardTypeDropdown(props: Props) {
 
 	return (
 		<DropdownInput
-			data = {creditCardIssuersOptions}
+			data = {creditCardRewardTypesOptions}
 			labelField = "Label"
 			valueField = "Value"
 			placeholder = "Reward Type"
@@ -55,7 +55,7 @@ export function SpendingCategoryDropdown(props: Props) {
 
 	return (
 		<DropdownInput
-			data = {creditCardIssuersOptions}
+			data = {creditCardSpendingCategoriesOptions}
 			labelField = "Label"
 			valueField = "Value"
 			placeholder = "Spending Category"
